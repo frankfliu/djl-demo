@@ -22,7 +22,6 @@ on:
 
 jobs:
   canary-test-ubuntu:
-    if: github.repository == 'deepjavalibrary/djl-demo'
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
