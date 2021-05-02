@@ -243,7 +243,7 @@ public final class CanaryTest {
 
     private static void testTflite() throws ModelException, IOException, TranslateException {
         if (System.getProperty("os.name").startsWith("Win")) {
-            throw new AssertionError("DLR only work on macOS and Linux.");
+            throw new AssertionError("TFLite only work on macOS and Linux.");
         }
         Criteria<Image, Classifications> criteria =
                 Criteria.builder()

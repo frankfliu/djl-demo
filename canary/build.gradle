@@ -18,7 +18,10 @@ repositories {
     jcenter()
     mavenLocal()
     maven {
-        url "https://oss.sonatype.org/service/local/repositories/${stagingRepo}/content/"
+        url "https://oss.sonatype.org/service/local/repositories/aidjl-1116/content/"
+    }
+    maven {
+        url "https://oss.sonatype.org/service/local/repositories/aidjl-1117/content/"
     }
     maven {
         url 'https://oss.sonatype.org/content/repositories/snapshots/'
