@@ -1,0 +1,2401 @@
+{
+  "TinyLlama/TinyLlama-1.1B-Chat-v0.6": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q4_0": {
+        "name": "ggml-model-q4_0.gguf",
+        "size": 0.6220703125
+      }
+    }
+  },
+  "jbochi/madlad400-3b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q2_K": {
+        "name": "model-q2k.gguf",
+        "size": 0.943359375
+      },
+      "Q3_K": {
+        "name": "model-q3k.gguf",
+        "size": 1.3
+      },
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 1.7
+      }
+    }
+  },
+  "google/madlad400-3b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q2_K": {
+        "name": "model-q2k.gguf",
+        "size": 0.943359375
+      },
+      "Q3_K": {
+        "name": "model-q3k.gguf",
+        "size": 1.3
+      },
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 1.7
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.1-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-instruct-v0.1.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-instruct-v0.1.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-instruct-v0.1.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-instruct-v0.1.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-instruct-v0.1.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "Secbone/llama-33B-instructed": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 65.2
+  },
+  "Trelis/Llama-2-7b-chat-hf-function-calling-v2": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q3_K_M": {
+        "name": "llama-2-7b-function-calling.Q3_K_M.gguf",
+        "size": 4.1
+      }
+    }
+  },
+  "TheBloke/Llama-2-7B-Chat-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-7b-chat.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "llama-2-7b-chat.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "llama-2-7b-chat.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-7b-chat.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "llama-2-7b-chat.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "llama-2-7b-chat.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "llama-2-7b-chat.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "llama-2-7b-chat.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "llama-2-7b-chat.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "llama-2-7b-chat.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "llama-2-7b-chat.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "llama-2-7b-chat.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "sarvamai/OpenHathi-7B-Hi-v0.1-Base": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q4_0": {
+        "name": "OpenHathi-7B-Hi-v0.1-Base-q4_0.gguf",
+        "size": 3.9
+      },
+      "Q4_1": {
+        "name": "OpenHathi-7B-Hi-v0.1-Base-q4_1.gguf",
+        "size": 4.3
+      }
+    }
+  },
+  "llmware/dragon-mistral-7b-v0": {
+    "architecture": "MistralForCausalLM",
+    "gguf": {
+      "Q4_K_M": {
+        "name": "dragon-mistral-7b-q4_k_m.gguf",
+        "size": 4.4
+      }
+    }
+  },
+  "Brouz/Slerpeno": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q5_K_M": {
+        "name": "Slerpeno-Q5_K_M.gguf",
+        "size": 9.2
+      }
+    }
+  },
+  "sauce1337/AppleSauce-L2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q5_K_M": {
+        "name": "AppleSauce-Q5_K_M.gguf",
+        "size": 9.2
+      }
+    }
+  },
+  "sauce1337/BerrySauce-L2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q5_K_M": {
+        "name": "BerrySauce-Q5_K_M.gguf",
+        "size": 9.2
+      }
+    }
+  },
+  "TheBloke/zephyr-7B-beta-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "zephyr-7b-beta.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "zephyr-7b-beta.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "zephyr-7b-beta.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "zephyr-7b-beta.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "zephyr-7b-beta.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "zephyr-7b-beta.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "zephyr-7b-beta.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "zephyr-7b-beta.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "zephyr-7b-beta.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "zephyr-7b-beta.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "zephyr-7b-beta.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "zephyr-7b-beta.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "jbochi/madlad400-10b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 6.0
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 8.8
+      }
+    }
+  },
+  "TheBloke/goliath-120b-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "goliath-120b.Q2_K.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-v0.1-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-v0.1.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-v0.1.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-v0.1.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-v0.1.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-v0.1.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-v0.1.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-v0.1.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-v0.1.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-v0.1.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-v0.1.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-v0.1.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-v0.1.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "fblgit/UNA-SOLAR-10.7B-Instruct-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q5_K_M": {
+        "name": "ggml-model-q5_k_m.gguf",
+        "size": 7.6
+      },
+      "Q6_K": {
+        "name": "ggml-model-q6_k.gguf",
+        "size": 8.8
+      }
+    }
+  },
+  "TheBloke/Llama-2-13B-chat-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-13b-chat.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "llama-2-13b-chat.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "llama-2-13b-chat.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-13b-chat.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "llama-2-13b-chat.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "llama-2-13b-chat.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "llama-2-13b-chat.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "llama-2-13b-chat.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-13b-chat.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "llama-2-13b-chat.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "llama-2-13b-chat.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "llama-2-13b-chat.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Llama-2-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-7b.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "llama-2-7b.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "llama-2-7b.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-7b.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "llama-2-7b.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "llama-2-7b.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "llama-2-7b.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "llama-2-7b.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "llama-2-7b.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "llama-2-7b.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "llama-2-7b.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "llama-2-7b.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-OpenOrca-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-openorca.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-openorca.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-openorca.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-openorca.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-openorca.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-openorca.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-openorca.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-openorca.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-openorca.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-openorca.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-openorca.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-openorca.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "llmware/dragon-yi-6b-v0": {
+    "architecture": "YiForCausalLM",
+    "gguf": {
+      "Q4_K_M": {
+        "name": "dragon-yi-6b-q4_k_m.gguf",
+        "size": 3.7
+      }
+    }
+  },
+  "Trelis/Llama-2-7b-chat-hf-function-calling-v3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "openhermes-2.5-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "openhermes-2.5-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "openhermes-2.5-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "openhermes-2.5-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "openhermes-2.5-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "openhermes-2.5-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "openhermes-2.5-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "openhermes-2.5-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "openhermes-2.5-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "openhermes-2.5-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "openhermes-2.5-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Llama-2-13B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-13b.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "llama-2-13b.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "llama-2-13b.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-13b.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "llama-2-13b.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "llama-2-13b.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "llama-2-13b.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "llama-2-13b.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-13b.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "llama-2-13b.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "llama-2-13b.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "llama-2-13b.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q2_K.gguf",
+        "size": 16.0
+      },
+      "Q3_K_M": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf",
+        "size": 20.0
+      },
+      "Q4_0": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q4_0.gguf",
+        "size": 26.0
+      },
+      "Q4_K_M": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf",
+        "size": 26.0
+      },
+      "Q5_0": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q5_0.gguf",
+        "size": 32.0
+      },
+      "Q5_K_M": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf",
+        "size": 32.0
+      },
+      "Q6_K": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q6_K.gguf",
+        "size": 38.0
+      },
+      "Q8_0": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q8_0.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/dolphin-2.5-mixtral-8x7b-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q2_K.gguf",
+        "size": 16.0
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q3_K_M.gguf",
+        "size": 20.0
+      },
+      "Q4_0": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q4_0.gguf",
+        "size": 26.0
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q4_K_M.gguf",
+        "size": 26.0
+      },
+      "Q5_0": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q5_0.gguf",
+        "size": 32.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q5_K_M.gguf",
+        "size": 32.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q6_K.gguf",
+        "size": 38.0
+      },
+      "Q8_0": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q8_0.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/Mixtral-8x7B-v0.1-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "mixtral-8x7b-v0.1.Q2_K.gguf",
+        "size": 16.0
+      },
+      "Q3_K_M": {
+        "name": "mixtral-8x7b-v0.1.Q3_K_M.gguf",
+        "size": 20.0
+      },
+      "Q4_0": {
+        "name": "mixtral-8x7b-v0.1.Q4_0.gguf",
+        "size": 26.0
+      },
+      "Q4_K_M": {
+        "name": "mixtral-8x7b-v0.1.Q4_K_M.gguf",
+        "size": 26.0
+      },
+      "Q5_0": {
+        "name": "mixtral-8x7b-v0.1.Q5_0.gguf",
+        "size": 32.0
+      },
+      "Q5_K_M": {
+        "name": "mixtral-8x7b-v0.1.Q5_K_M.gguf",
+        "size": 32.0
+      },
+      "Q6_K": {
+        "name": "mixtral-8x7b-v0.1.Q6_K.gguf",
+        "size": 38.0
+      },
+      "Q8_0": {
+        "name": "mixtral-8x7b-v0.1.Q8_0.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.2-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-instruct-v0.2.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-instruct-v0.2.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-instruct-v0.2.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-instruct-v0.2.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-instruct-v0.2.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-instruct-v0.2.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-instruct-v0.2.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-instruct-v0.2.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-instruct-v0.2.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-instruct-v0.2.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-instruct-v0.2.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "google/madlad400-10b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 6.0
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 8.8
+      }
+    }
+  },
+  "jbochi/madlad400-7b-mt-bt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "llmware/dragon-llama-7b-v0": {
+    "architecture": "Llama2ForCausalLM",
+    "gguf": {
+      "Q4_K_M": {
+        "name": "dragon-llama-7b-q4_k_m.gguf",
+        "size": 4.1
+      }
+    }
+  },
+  "TheBloke/Llama-2-70B-Chat-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-70b-chat.Q2_K.gguf",
+        "size": 29.0
+      },
+      "Q3_K_L": {
+        "name": "llama-2-70b-chat.Q3_K_L.gguf",
+        "size": 36.0
+      },
+      "Q3_K_M": {
+        "name": "llama-2-70b-chat.Q3_K_M.gguf",
+        "size": 33.0
+      },
+      "Q3_K_S": {
+        "name": "llama-2-70b-chat.Q3_K_S.gguf",
+        "size": 30.0
+      },
+      "Q4_0": {
+        "name": "llama-2-70b-chat.Q4_0.gguf",
+        "size": 39.0
+      },
+      "Q4_K_M": {
+        "name": "llama-2-70b-chat.Q4_K_M.gguf",
+        "size": 41.0
+      },
+      "Q4_K_S": {
+        "name": "llama-2-70b-chat.Q4_K_S.gguf",
+        "size": 39.0
+      },
+      "Q5_0": {
+        "name": "llama-2-70b-chat.Q5_0.gguf",
+        "size": 48.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-70b-chat.Q5_K_M.gguf",
+        "size": 49.0
+      },
+      "Q5_K_S": {
+        "name": "llama-2-70b-chat.Q5_K_S.gguf",
+        "size": 31.0
+      }
+    }
+  },
+  "jbochi/madlad400-7b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "TheBloke/zephyr-7B-alpha-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "zephyr-7b-alpha.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "zephyr-7b-alpha.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "zephyr-7b-alpha.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "zephyr-7b-alpha.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "zephyr-7b-alpha.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "zephyr-7b-alpha.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "zephyr-7b-alpha.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "zephyr-7b-alpha.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "zephyr-7b-alpha.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "zephyr-7b-alpha.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "zephyr-7b-alpha.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "zephyr-7b-alpha.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q2_K.gguf",
+        "size": 0.470703125
+      },
+      "Q3_K_L": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_L.gguf",
+        "size": 0.578125
+      },
+      "Q3_K_M": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_M.gguf",
+        "size": 0.537109375
+      },
+      "Q3_K_S": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_S.gguf",
+        "size": 0.4873046875
+      },
+      "Q4_0": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_0.gguf",
+        "size": 0.6220703125
+      },
+      "Q4_K_M": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_M.gguf",
+        "size": 0.65234375
+      },
+      "Q4_K_S": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_S.gguf",
+        "size": 0.6279296875
+      },
+      "Q5_0": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_0.gguf",
+        "size": 0.748046875
+      },
+      "Q5_K_M": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_M.gguf",
+        "size": 0.763671875
+      },
+      "Q5_K_S": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_S.gguf",
+        "size": 0.748046875
+      },
+      "Q6_K": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q6_K.gguf",
+        "size": 0.8818359375
+      },
+      "Q8_0": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q8_0.gguf",
+        "size": 1.2
+      }
+    }
+  },
+  "TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q2_K.gguf",
+        "size": 0.470703125
+      },
+      "Q3_K_L": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q3_K_L.gguf",
+        "size": 0.578125
+      },
+      "Q3_K_M": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q3_K_M.gguf",
+        "size": 0.537109375
+      },
+      "Q3_K_S": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q3_K_S.gguf",
+        "size": 0.4873046875
+      },
+      "Q4_0": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q4_0.gguf",
+        "size": 0.6220703125
+      },
+      "Q4_K_M": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf",
+        "size": 0.65234375
+      },
+      "Q4_K_S": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q4_K_S.gguf",
+        "size": 0.6279296875
+      },
+      "Q5_0": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q5_0.gguf",
+        "size": 0.748046875
+      },
+      "Q5_K_M": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q5_K_M.gguf",
+        "size": 0.763671875
+      },
+      "Q5_K_S": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q5_K_S.gguf",
+        "size": 0.748046875
+      },
+      "Q6_K": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q6_K.gguf",
+        "size": 0.8818359375
+      },
+      "Q8_0": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q8_0.gguf",
+        "size": 1.2
+      }
+    }
+  },
+  "TheBloke/Orca-2-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "orca-2-7b.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "orca-2-7b.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "orca-2-7b.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "orca-2-7b.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "orca-2-7b.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "orca-2-7b.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "orca-2-7b.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "orca-2-7b.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "orca-2-7b.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "orca-2-7b.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "orca-2-7b.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "orca-2-7b.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/Orca-2-13B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "orca-2-13b.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "orca-2-13b.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "orca-2-13b.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "orca-2-13b.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "orca-2-13b.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "orca-2-13b.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "orca-2-13b.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "orca-2-13b.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "orca-2-13b.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "orca-2-13b.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "orca-2-13b.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "orca-2-13b.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/openchat_3.5-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "openchat_3.5.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "openchat_3.5.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "openchat_3.5.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "openchat_3.5.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "openchat_3.5.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "openchat_3.5.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "openchat_3.5.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "openchat_3.5.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "openchat_3.5.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "openchat_3.5.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "openchat_3.5.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "openchat_3.5.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Guanaco-13B-Uncensored-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "guanaco-13b-uncensored.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "guanaco-13b-uncensored.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "guanaco-13b-uncensored.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "guanaco-13b-uncensored.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "guanaco-13b-uncensored.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "guanaco-13b-uncensored.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "guanaco-13b-uncensored.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "guanaco-13b-uncensored.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "guanaco-13b-uncensored.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "guanaco-13b-uncensored.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "guanaco-13b-uncensored.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "guanaco-13b-uncensored.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Chinese-Alpaca-2-13B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "chinese-alpaca-2-13b.Q2_K.gguf",
+        "size": 5.6
+      },
+      "Q3_K_L": {
+        "name": "chinese-alpaca-2-13b.Q3_K_L.gguf",
+        "size": 7.1
+      },
+      "Q3_K_M": {
+        "name": "chinese-alpaca-2-13b.Q3_K_M.gguf",
+        "size": 6.5
+      },
+      "Q3_K_S": {
+        "name": "chinese-alpaca-2-13b.Q3_K_S.gguf",
+        "size": 5.8
+      },
+      "Q4_0": {
+        "name": "chinese-alpaca-2-13b.Q4_0.gguf",
+        "size": 7.5
+      },
+      "Q4_K_M": {
+        "name": "chinese-alpaca-2-13b.Q4_K_M.gguf",
+        "size": 8.0
+      },
+      "Q4_K_S": {
+        "name": "chinese-alpaca-2-13b.Q4_K_S.gguf",
+        "size": 7.6
+      },
+      "Q5_0": {
+        "name": "chinese-alpaca-2-13b.Q5_0.gguf",
+        "size": 9.2
+      },
+      "Q5_K_M": {
+        "name": "chinese-alpaca-2-13b.Q5_K_M.gguf",
+        "size": 9.4
+      },
+      "Q5_K_S": {
+        "name": "chinese-alpaca-2-13b.Q5_K_S.gguf",
+        "size": 9.2
+      },
+      "Q6_K": {
+        "name": "chinese-alpaca-2-13b.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "chinese-alpaca-2-13b.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Tinyllama-2-1b-miniguanaco-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "tinyllama-2-1b-miniguanaco.Q2_K.gguf",
+        "size": 0.470703125
+      },
+      "Q3_K_L": {
+        "name": "tinyllama-2-1b-miniguanaco.Q3_K_L.gguf",
+        "size": 0.578125
+      },
+      "Q3_K_M": {
+        "name": "tinyllama-2-1b-miniguanaco.Q3_K_M.gguf",
+        "size": 0.537109375
+      },
+      "Q3_K_S": {
+        "name": "tinyllama-2-1b-miniguanaco.Q3_K_S.gguf",
+        "size": 0.4873046875
+      },
+      "Q4_0": {
+        "name": "tinyllama-2-1b-miniguanaco.Q4_0.gguf",
+        "size": 0.6220703125
+      },
+      "Q4_K_M": {
+        "name": "tinyllama-2-1b-miniguanaco.Q4_K_M.gguf",
+        "size": 0.65234375
+      },
+      "Q4_K_S": {
+        "name": "tinyllama-2-1b-miniguanaco.Q4_K_S.gguf",
+        "size": 0.6279296875
+      },
+      "Q5_0": {
+        "name": "tinyllama-2-1b-miniguanaco.Q5_0.gguf",
+        "size": 0.748046875
+      },
+      "Q5_K_M": {
+        "name": "tinyllama-2-1b-miniguanaco.Q5_K_M.gguf",
+        "size": 0.763671875
+      },
+      "Q5_K_S": {
+        "name": "tinyllama-2-1b-miniguanaco.Q5_K_S.gguf",
+        "size": 0.748046875
+      },
+      "Q6_K": {
+        "name": "tinyllama-2-1b-miniguanaco.Q6_K.gguf",
+        "size": 0.8818359375
+      },
+      "Q8_0": {
+        "name": "tinyllama-2-1b-miniguanaco.Q8_0.gguf",
+        "size": 1.2
+      }
+    }
+  },
+  "TheBloke/Chinese-Alpaca-2-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "chinese-alpaca-2-7b.Q2_K.gguf",
+        "size": 2.9
+      },
+      "Q3_K_L": {
+        "name": "chinese-alpaca-2-7b.Q3_K_L.gguf",
+        "size": 3.7
+      },
+      "Q3_K_M": {
+        "name": "chinese-alpaca-2-7b.Q3_K_M.gguf",
+        "size": 3.4
+      },
+      "Q3_K_S": {
+        "name": "chinese-alpaca-2-7b.Q3_K_S.gguf",
+        "size": 3.1
+      },
+      "Q4_0": {
+        "name": "chinese-alpaca-2-7b.Q4_0.gguf",
+        "size": 4.0
+      },
+      "Q4_K_M": {
+        "name": "chinese-alpaca-2-7b.Q4_K_M.gguf",
+        "size": 4.2
+      },
+      "Q4_K_S": {
+        "name": "chinese-alpaca-2-7b.Q4_K_S.gguf",
+        "size": 4.0
+      },
+      "Q5_0": {
+        "name": "chinese-alpaca-2-7b.Q5_0.gguf",
+        "size": 4.8
+      },
+      "Q5_K_M": {
+        "name": "chinese-alpaca-2-7b.Q5_K_M.gguf",
+        "size": 4.9
+      },
+      "Q5_K_S": {
+        "name": "chinese-alpaca-2-7b.Q5_K_S.gguf",
+        "size": 4.8
+      },
+      "Q6_K": {
+        "name": "chinese-alpaca-2-7b.Q6_K.gguf",
+        "size": 5.7
+      },
+      "Q8_0": {
+        "name": "chinese-alpaca-2-7b.Q8_0.gguf",
+        "size": 7.4
+      }
+    }
+  },
+  "TheBloke/neural-chat-7B-v3-1-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "neural-chat-7b-v3-1.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "neural-chat-7b-v3-1.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "neural-chat-7b-v3-1.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "neural-chat-7b-v3-1.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "neural-chat-7b-v3-1.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "neural-chat-7b-v3-1.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "neural-chat-7b-v3-1.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "neural-chat-7b-v3-1.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "neural-chat-7b-v3-1.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "neural-chat-7b-v3-1.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "neural-chat-7b-v3-1.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "neural-chat-7b-v3-1.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Llama-2-13B-Ensemble-v5-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-13b-ensemble-v5.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "llama-2-13b-ensemble-v5.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "llama-2-13b-ensemble-v5.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-13b-ensemble-v5.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "llama-2-13b-ensemble-v5.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "llama-2-13b-ensemble-v5.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "llama-2-13b-ensemble-v5.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "llama-2-13b-ensemble-v5.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-13b-ensemble-v5.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "llama-2-13b-ensemble-v5.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "llama-2-13b-ensemble-v5.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "llama-2-13b-ensemble-v5.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "lemonilia/Limamono-Mistral-7B-v0.50": {
+    "architecture": "MistralForCausalLM",
+    "gguf": {
+      "Q2_K": {
+        "name": "Limamono-Mistral-7B-v0.50-Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q5_K_M": {
+        "name": "Limamono-Mistral-7B-v0.50-Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q6_K": {
+        "name": "Limamono-Mistral-7B-v0.50-Q6_K.gguf",
+        "size": 5.9
+      }
+    }
+  },
+  "TinyLlama/TinyLlama-1.1B-python-v0.1": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q4_0": {
+        "name": "ggml-model-q4_0.gguf",
+        "size": 0.6220703125
+      }
+    }
+  },
+  "TheBloke/CodeLlama-7B-Instruct-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "codellama-7b-instruct.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "codellama-7b-instruct.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "codellama-7b-instruct.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "codellama-7b-instruct.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "codellama-7b-instruct.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "codellama-7b-instruct.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "codellama-7b-instruct.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "codellama-7b-instruct.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "codellama-7b-instruct.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "codellama-7b-instruct.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "codellama-7b-instruct.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "codellama-7b-instruct.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/dolphin-2.0-mistral-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.0-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "dolphin-2.0-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.0-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "dolphin-2.0-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "dolphin-2.0-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.0-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "dolphin-2.0-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "dolphin-2.0-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.0-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "dolphin-2.0-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.0-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "dolphin-2.0-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/stablelm-zephyr-3b-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "stablelm-zephyr-3b.Q2_K.gguf",
+        "size": 1.2
+      },
+      "Q3_K_L": {
+        "name": "stablelm-zephyr-3b.Q3_K_L.gguf",
+        "size": 1.5
+      },
+      "Q3_K_M": {
+        "name": "stablelm-zephyr-3b.Q3_K_M.gguf",
+        "size": 1.4
+      },
+      "Q3_K_S": {
+        "name": "stablelm-zephyr-3b.Q3_K_S.gguf",
+        "size": 1.3
+      },
+      "Q4_0": {
+        "name": "stablelm-zephyr-3b.Q4_0.gguf",
+        "size": 1.6
+      },
+      "Q4_K_M": {
+        "name": "stablelm-zephyr-3b.Q4_K_M.gguf",
+        "size": 1.7
+      },
+      "Q4_K_S": {
+        "name": "stablelm-zephyr-3b.Q4_K_S.gguf",
+        "size": 1.6
+      },
+      "Q5_0": {
+        "name": "stablelm-zephyr-3b.Q5_0.gguf",
+        "size": 1.9
+      },
+      "Q5_K_M": {
+        "name": "stablelm-zephyr-3b.Q5_K_M.gguf",
+        "size": 2.0
+      },
+      "Q5_K_S": {
+        "name": "stablelm-zephyr-3b.Q5_K_S.gguf",
+        "size": 1.9
+      },
+      "Q6_K": {
+        "name": "stablelm-zephyr-3b.Q6_K.gguf",
+        "size": 2.3
+      },
+      "Q8_0": {
+        "name": "stablelm-zephyr-3b.Q8_0.gguf",
+        "size": 3.0
+      }
+    }
+  },
+  "TheBloke/CodeLlama-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "codellama-7b.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "codellama-7b.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "codellama-7b.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "codellama-7b.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "codellama-7b.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "codellama-7b.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "codellama-7b.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "codellama-7b.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "codellama-7b.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "codellama-7b.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "codellama-7b.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "codellama-7b.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/dolphin-2.2.1-mistral-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.2.1-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "dolphin-2.2.1-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.2.1-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "dolphin-2.2.1-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "dolphin-2.2.1-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.2.1-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "dolphin-2.2.1-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "dolphin-2.2.1-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.2.1-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "dolphin-2.2.1-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.2.1-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "dolphin-2.2.1-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TabbyML/StarCoder-1B": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float32",
+    "file_size": 4.5
+  },
+  "TheBloke/deepseek-coder-6.7B-instruct-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "deepseek-coder-6.7b-instruct.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "deepseek-coder-6.7b-instruct.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "deepseek-coder-6.7b-instruct.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "deepseek-coder-6.7b-instruct.Q3_K_S.gguf",
+        "size": 3.0
+      },
+      "Q4_0": {
+        "name": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "deepseek-coder-6.7b-instruct.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "deepseek-coder-6.7b-instruct.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "deepseek-coder-6.7b-instruct.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "deepseek-coder-6.7b-instruct.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "deepseek-coder-6.7b-instruct.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/CodeLlama-13B-Instruct-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "codellama-13b-instruct.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "codellama-13b-instruct.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "codellama-13b-instruct.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "codellama-13b-instruct.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "codellama-13b-instruct.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "codellama-13b-instruct.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "codellama-13b-instruct.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "codellama-13b-instruct.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "codellama-13b-instruct.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "codellama-13b-instruct.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "codellama-13b-instruct.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "codellama-13b-instruct.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/dolphin-2.1-mistral-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.1-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "dolphin-2.1-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.1-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "dolphin-2.1-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "dolphin-2.1-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.1-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "dolphin-2.1-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "dolphin-2.1-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.1-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "dolphin-2.1-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.1-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "dolphin-2.1-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/phi-2-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "phi-2.Q2_K.gguf",
+        "size": 1.2
+      },
+      "Q3_K_L": {
+        "name": "phi-2.Q3_K_L.gguf",
+        "size": 1.6
+      },
+      "Q3_K_M": {
+        "name": "phi-2.Q3_K_M.gguf",
+        "size": 1.5
+      },
+      "Q3_K_S": {
+        "name": "phi-2.Q3_K_S.gguf",
+        "size": 1.3
+      },
+      "Q4_0": {
+        "name": "phi-2.Q4_0.gguf",
+        "size": 1.6
+      },
+      "Q4_K_M": {
+        "name": "phi-2.Q4_K_M.gguf",
+        "size": 1.8
+      },
+      "Q4_K_S": {
+        "name": "phi-2.Q4_K_S.gguf",
+        "size": 1.6
+      },
+      "Q5_0": {
+        "name": "phi-2.Q5_0.gguf",
+        "size": 1.9
+      },
+      "Q5_K_M": {
+        "name": "phi-2.Q5_K_M.gguf",
+        "size": 2.1
+      },
+      "Q5_K_S": {
+        "name": "phi-2.Q5_K_S.gguf",
+        "size": 1.9
+      },
+      "Q6_K": {
+        "name": "phi-2.Q6_K.gguf",
+        "size": 2.3
+      },
+      "Q8_0": {
+        "name": "phi-2.Q8_0.gguf",
+        "size": 3.0
+      }
+    }
+  },
+  "radames/phi-2-quantized": {
+    "architecture": "PhiForCausalLM",
+    "gguf": {
+      "Q4_K": {
+        "name": "model-v2-q4k.gguf",
+        "size": 1.6
+      },
+      "Q5_0": {
+        "name": "model-v2-q50.gguf",
+        "size": 1.9
+      },
+      "Q8_0": {
+        "name": "model-v2-q80.gguf",
+        "size": 3.0
+      }
+    }
+  },
+  "TheBloke/OpenHermes-2.5-neural-chat-7B-v3-1-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Xwin-MLewd-13B-v0.2-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "xwin-mlewd-13b-v0.2.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "xwin-mlewd-13b-v0.2.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "xwin-mlewd-13b-v0.2.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "xwin-mlewd-13b-v0.2.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "xwin-mlewd-13b-v0.2.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "xwin-mlewd-13b-v0.2.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "xwin-mlewd-13b-v0.2.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "xwin-mlewd-13b-v0.2.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "xwin-mlewd-13b-v0.2.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "xwin-mlewd-13b-v0.2.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "xwin-mlewd-13b-v0.2.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "xwin-mlewd-13b-v0.2.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "hoangton/PhoGPT-7B5-GGUF": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": null
+  },
+  "TheBloke/Starling-LM-7B-alpha-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "starling-lm-7b-alpha.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "starling-lm-7b-alpha.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "starling-lm-7b-alpha.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "starling-lm-7b-alpha.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "starling-lm-7b-alpha.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "starling-lm-7b-alpha.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "starling-lm-7b-alpha.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "starling-lm-7b-alpha.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "starling-lm-7b-alpha.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "starling-lm-7b-alpha.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "starling-lm-7b-alpha.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "starling-lm-7b-alpha.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "google/madlad400-7b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "WisdomShell/CodeShell-7B-Chat-int4": {
+    "architecture": "CodeShell4bitForCausalLM",
+    "gguf": {
+      "Q4_0": {
+        "name": "codeshell-chat-q4_0.gguf",
+        "size": 4.6
+      }
+    }
+  },
+  "YanaS/llama-2-7b-langchain-chat-GGUF": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q4_K_M": {
+        "name": "llama-2-7b-langchain-chat-Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q5_K_M": {
+        "name": "llama-2-7b-langchain-chat-Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q6_K": {
+        "name": "llama-2-7b-langchain-chat-Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "llama-2-7b-langchain-chat-Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "Utkarsh55/Nous-Hermes-Llama-2-7B-GGUF-Profiles": {
+    "gguf": {
+      "Q5_K_M": {
+        "name": "nous-hermes-llama-2-7b.Q5_K_M.gguf",
+        "size": 4.8
+      }
+    }
+  },
+  "TheBloke/sqlcoder-7B-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "sqlcoder-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "sqlcoder-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "sqlcoder-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "sqlcoder-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "sqlcoder-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "sqlcoder-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "sqlcoder-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "sqlcoder-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "sqlcoder-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "sqlcoder-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "sqlcoder-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "sqlcoder-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "google/madlad400-7b-mt-bt": {
+    "architecture": "T5ForConditionalGeneration",
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "TheBloke/sqlcoder2-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "sqlcoder2.Q2_K.gguf",
+        "size": 6.7
+      },
+      "Q3_K_L": {
+        "name": "sqlcoder2.Q3_K_L.gguf",
+        "size": 9.1
+      },
+      "Q3_K_M": {
+        "name": "sqlcoder2.Q3_K_M.gguf",
+        "size": 8.2
+      },
+      "Q3_K_S": {
+        "name": "sqlcoder2.Q3_K_S.gguf",
+        "size": 6.9
+      },
+      "Q4_0": {
+        "name": "sqlcoder2.Q4_0.gguf",
+        "size": 9.0
+      },
+      "Q4_K_M": {
+        "name": "sqlcoder2.Q4_K_M.gguf",
+        "size": 10.0
+      },
+      "Q4_K_S": {
+        "name": "sqlcoder2.Q4_K_S.gguf",
+        "size": 9.1
+      },
+      "Q5_0": {
+        "name": "sqlcoder2.Q5_0.gguf",
+        "size": 11.0
+      },
+      "Q5_K_M": {
+        "name": "sqlcoder2.Q5_K_M.gguf",
+        "size": 12.0
+      },
+      "Q5_K_S": {
+        "name": "sqlcoder2.Q5_K_S.gguf",
+        "size": 11.0
+      },
+      "Q6_K": {
+        "name": "sqlcoder2.Q6_K.gguf",
+        "size": 13.0
+      },
+      "Q8_0": {
+        "name": "sqlcoder2.Q8_0.gguf",
+        "size": 17.0
+      }
+    }
+  },
+  "TheBloke/SOLAR-10.7B-Instruct-v1.0-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "solar-10.7b-instruct-v1.0.Q2_K.gguf",
+        "size": 4.5
+      },
+      "Q3_K_L": {
+        "name": "solar-10.7b-instruct-v1.0.Q3_K_L.gguf",
+        "size": 5.7
+      },
+      "Q3_K_M": {
+        "name": "solar-10.7b-instruct-v1.0.Q3_K_M.gguf",
+        "size": 5.2
+      },
+      "Q3_K_S": {
+        "name": "solar-10.7b-instruct-v1.0.Q3_K_S.gguf",
+        "size": 4.7
+      },
+      "Q4_0": {
+        "name": "solar-10.7b-instruct-v1.0.Q4_0.gguf",
+        "size": 6.1
+      },
+      "Q4_K_M": {
+        "name": "solar-10.7b-instruct-v1.0.Q4_K_M.gguf",
+        "size": 6.5
+      },
+      "Q4_K_S": {
+        "name": "solar-10.7b-instruct-v1.0.Q4_K_S.gguf",
+        "size": 6.1
+      },
+      "Q5_0": {
+        "name": "solar-10.7b-instruct-v1.0.Q5_0.gguf",
+        "size": 7.4
+      },
+      "Q5_K_M": {
+        "name": "solar-10.7b-instruct-v1.0.Q5_K_M.gguf",
+        "size": 7.6
+      },
+      "Q5_K_S": {
+        "name": "solar-10.7b-instruct-v1.0.Q5_K_S.gguf",
+        "size": 7.4
+      },
+      "Q6_K": {
+        "name": "solar-10.7b-instruct-v1.0.Q6_K.gguf",
+        "size": 8.8
+      },
+      "Q8_0": {
+        "name": "solar-10.7b-instruct-v1.0.Q8_0.gguf",
+        "size": 11.0
+      }
+    }
+  }
+}

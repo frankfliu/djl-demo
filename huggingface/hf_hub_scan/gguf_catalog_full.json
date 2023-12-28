@@ -1,0 +1,3743 @@
+{
+  "TinyLlama/TinyLlama-1.1B-Chat-v0.6": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 2.2,
+    "sha1": "bf9ae1c8bf026667e6f810768de259bb4a7f4777",
+    "downloads": 30616,
+    "config": {
+      "_name_or_path": "/mnt/petrelfs/libo1.p/alignment-handbook/data/tinyllama-2T-sft-full",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "attention_bias": false,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 2048,
+      "initializer_range": 0.02,
+      "intermediate_size": 5632,
+      "max_position_embeddings": 2048,
+      "model_type": "llama",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 22,
+      "num_key_value_heads": 4,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "rope_theta": 10000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.35.0",
+      "use_cache": false,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q4_0": {
+        "name": "ggml-model-q4_0.gguf",
+        "size": 0.6220703125
+      }
+    }
+  },
+  "jbochi/madlad400-3b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 12.0,
+    "sha1": "050311abd4c13aadbaaa0f4c644a954be786fcd9",
+    "downloads": 6665,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "d_ff": 8192,
+      "d_kv": 128,
+      "d_model": 1024,
+      "dropout_rate": 0.1,
+      "decoder_start_token_id": 0,
+      "pad_token_id": 1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 32,
+      "num_heads": 16,
+      "num_layers": 32,
+      "output_past": true,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "transformers_version": "4.23.1",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "model-q2k.gguf",
+        "size": 0.943359375
+      },
+      "Q3_K": {
+        "name": "model-q3k.gguf",
+        "size": 1.3
+      },
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 1.7
+      }
+    }
+  },
+  "google/madlad400-3b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 12.0,
+    "sha1": "fa184c675da0b5c9e1c8694fccd4e12e2d422094",
+    "downloads": 5912,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "d_ff": 8192,
+      "d_kv": 128,
+      "d_model": 1024,
+      "dropout_rate": 0.1,
+      "decoder_start_token_id": 0,
+      "pad_token_id": 1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 32,
+      "num_heads": 16,
+      "num_layers": 32,
+      "output_past": true,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "transformers_version": "4.23.1",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "model-q2k.gguf",
+        "size": 0.943359375
+      },
+      "Q3_K": {
+        "name": "model-q3k.gguf",
+        "size": 1.3
+      },
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 1.7
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.1-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "731a9fc8f06f5f5e2db8a0cf9d256197eb6e05d1",
+    "downloads": 3505,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-instruct-v0.1.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-instruct-v0.1.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-instruct-v0.1.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-instruct-v0.1.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-instruct-v0.1.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "Secbone/llama-33B-instructed": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 65.2,
+    "sha1": "a65e2698ac45571f26124cbc34db6a5157b03abd",
+    "downloads": 3128,
+    "config": {
+      "_name_or_path": "Secbone/llama-33B-instructed",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 6656,
+      "initializer_range": 0.02,
+      "intermediate_size": 17920,
+      "max_position_embeddings": 2048,
+      "model_type": "llama",
+      "num_attention_heads": 52,
+      "num_hidden_layers": 60,
+      "num_key_value_heads": 52,
+      "rms_norm_eps": 1e-06,
+      "rope_scaling": null,
+      "rope_theta": 10000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.33.2",
+      "use_cache": true,
+      "vocab_size": 32000
+    }
+  },
+  "Trelis/Llama-2-7b-chat-hf-function-calling-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5,
+    "sha1": "b3591eb9c5b5626058cfcb40aebaf39a29bf92fb",
+    "downloads": 3094,
+    "config": {
+      "_name_or_path": "meta-llama/Llama-2-7b-chat-hf",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "attention_bias": false,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 11008,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 32,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-06,
+      "rope_scaling": null,
+      "rope_theta": 10000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "float16",
+      "transformers_version": "4.35.0.dev0",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q3_K_M": {
+        "name": "llama-2-7b-function-calling.Q3_K_M.gguf",
+        "size": 4.1
+      }
+    }
+  },
+  "TheBloke/Llama-2-7B-Chat-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "191239b3e26b2882fb562ffccdd1cf0f65402adb",
+    "downloads": 2711,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-7b-chat.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "llama-2-7b-chat.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "llama-2-7b-chat.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-7b-chat.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "llama-2-7b-chat.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "llama-2-7b-chat.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "llama-2-7b-chat.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "llama-2-7b-chat.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "llama-2-7b-chat.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "llama-2-7b-chat.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "llama-2-7b-chat.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "llama-2-7b-chat.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "sarvamai/OpenHathi-7B-Hi-v0.1-Base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.7,
+    "sha1": "2cb5807b852028defa07c56c96a7ff5c11f8df0e",
+    "downloads": 2635,
+    "config": {
+      "_name_or_path": "sarvamai/OpenHathi-7B-Hi-v0.1-Base",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "attention_bias": false,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 11008,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 32,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "rope_theta": 10000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.35.0",
+      "use_cache": true,
+      "vocab_size": 48064
+    },
+    "gguf": {
+      "Q4_0": {
+        "name": "OpenHathi-7B-Hi-v0.1-Base-q4_0.gguf",
+        "size": 3.9
+      },
+      "Q4_1": {
+        "name": "OpenHathi-7B-Hi-v0.1-Base-q4_1.gguf",
+        "size": 4.3
+      }
+    }
+  },
+  "llmware/dragon-mistral-7b-v0": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.0,
+    "sha1": "38f32b46910de20588c12dbcfd062a234576024a",
+    "downloads": 1928,
+    "config": {
+      "architectures": [
+        "MistralForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 14336,
+      "max_position_embeddings": 32768,
+      "model_type": "mistral",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 8,
+      "rms_norm_eps": 1e-05,
+      "rope_theta": 10000.0,
+      "sliding_window": 4096,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.34.0.dev0",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q4_K_M": {
+        "name": "dragon-mistral-7b-q4_k_m.gguf",
+        "size": 4.4
+      }
+    }
+  },
+  "Brouz/Slerpeno": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4,
+    "sha1": "7ff32abd17851a769a031659e91e660f219be363",
+    "downloads": 1747,
+    "config": {
+      "_name_or_path": "models/Chro-Herm-Airo/",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 5120,
+      "initializer_range": 0.02,
+      "intermediate_size": 13824,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 40,
+      "num_hidden_layers": 40,
+      "num_key_value_heads": 40,
+      "pad_token_id": 0,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "tie_word_embeddings": false,
+      "torch_dtype": "float16",
+      "transformers_version": "4.32.1",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q5_K_M": {
+        "name": "Slerpeno-Q5_K_M.gguf",
+        "size": 9.2
+      }
+    }
+  },
+  "sauce1337/AppleSauce-L2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4,
+    "sha1": "09e8d11023e50b4714817f62c34149fa242ef0f3",
+    "downloads": 1673,
+    "config": {
+      "_name_or_path": "applesauce",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "badwordsids": "[[29961], [14352], [24630], [29962], [11759], [15974], [5519], [25473], [18899], [25901], [7110], [9341], [13531], [518], [9310], [2636], [3366], [21069], [11970], [23098], [16733], [21298], [18173], [10846], [3816], [28513], [15625], [23192], [28166], [10062], [1385], [11724], [3108], [15555], [10834], [10370], [14330], [1822], [12436], [5262], [17094], [10725], [17077], [11424], [4197], [24406], [13359], [17531], [24566], [23076], [4514], [13192], [19942], [16261], [7072], [6024], [1402], [1839], [2033], [13970], [850], [5913], [28895], [5387], [8308], [24927], [5691], [12940], [19997], [18959], [11287], [16862], [4638], [22322], [29861], [21251], [14704], [17548], [12452], [17288], [23160], [24960], [8219], [18024], [5539], [7464], [27865], [29588], [20068], [19660], [27706], [22896], [24264], [12258], [2314], [4400], [5586], [12622], [6796], [7226], [21939], [18456], [14178], [21540], [21945], [14664], [16215], [10338], [17361], [7503], [13769], [26073], [9601], [26909], [7961], [8999], [20840], [16272], [21545], [3199], [10514], [5159], [22689], [6525], [20526], [27077], [18017]]",
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 5120,
+      "initializer_range": 0.02,
+      "intermediate_size": 13824,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 40,
+      "num_hidden_layers": 40,
+      "num_key_value_heads": 40,
+      "pad_token_id": 0,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "tie_word_embeddings": false,
+      "torch_dtype": "float16",
+      "transformers_version": "4.32.1",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q5_K_M": {
+        "name": "AppleSauce-Q5_K_M.gguf",
+        "size": 9.2
+      }
+    }
+  },
+  "sauce1337/BerrySauce-L2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.4,
+    "sha1": "729ca3c25a3a542db5a4cf8bf2fa54c4ba2ffe36",
+    "downloads": 1649,
+    "config": {
+      "_name_or_path": "berrysauce-l2-13b",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 5120,
+      "initializer_range": 0.02,
+      "intermediate_size": 13824,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 40,
+      "num_hidden_layers": 40,
+      "num_key_value_heads": 40,
+      "pad_token_id": 0,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.31.0",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q5_K_M": {
+        "name": "BerrySauce-Q5_K_M.gguf",
+        "size": 9.2
+      }
+    }
+  },
+  "TheBloke/zephyr-7B-beta-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "e4714d14e9652aa9658fa937732cceadc63ac42e",
+    "downloads": 1640,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "zephyr-7b-beta.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "zephyr-7b-beta.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "zephyr-7b-beta.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "zephyr-7b-beta.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "zephyr-7b-beta.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "zephyr-7b-beta.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "zephyr-7b-beta.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "zephyr-7b-beta.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "zephyr-7b-beta.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "zephyr-7b-beta.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "zephyr-7b-beta.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "zephyr-7b-beta.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "jbochi/madlad400-10b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 42.9,
+    "sha1": "584d043bba2b760b7c4b7ad3fe07573607156cc5",
+    "downloads": 1316,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "classifier_dropout": 0.0,
+      "d_ff": 16384,
+      "d_kv": 128,
+      "d_model": 2048,
+      "decoder_start_token_id": 0,
+      "dense_act_fn": "gelu_new",
+      "dropout_rate": 0.1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "is_gated_act": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 32,
+      "num_heads": 32,
+      "num_layers": 32,
+      "output_past": true,
+      "pad_token_id": 1,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "torch_dtype": "float32",
+      "transformers_version": "4.35.0",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 6.0
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 8.8
+      }
+    }
+  },
+  "TheBloke/goliath-120b-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "48761cf00d6a797942f66bb9c120ed6c18998c86",
+    "downloads": 1193,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "goliath-120b.Q2_K.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-v0.1-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "d4ae605152c8de0d6570cf624c083fa57dd0d551",
+    "downloads": 1094,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-v0.1.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-v0.1.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-v0.1.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-v0.1.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-v0.1.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-v0.1.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-v0.1.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-v0.1.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-v0.1.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-v0.1.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-v0.1.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-v0.1.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "fblgit/UNA-SOLAR-10.7B-Instruct-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 21.400000000000002,
+    "sha1": "34471a758b830c4fd79f59fce201c8a10b658fb7",
+    "downloads": 927,
+    "config": {
+      "_name_or_path": "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "attention_bias": false,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 14336,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 48,
+      "num_key_value_heads": 8,
+      "pad_token_id": 2,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "rope_theta": 10000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "float16",
+      "transformers_version": "4.35.2",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q5_K_M": {
+        "name": "ggml-model-q5_k_m.gguf",
+        "size": 7.6
+      },
+      "Q6_K": {
+        "name": "ggml-model-q6_k.gguf",
+        "size": 8.8
+      }
+    }
+  },
+  "TheBloke/Llama-2-13B-chat-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "4458acc949de0a9914c3eab623904d4fe999050a",
+    "downloads": 852,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-13b-chat.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "llama-2-13b-chat.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "llama-2-13b-chat.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-13b-chat.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "llama-2-13b-chat.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "llama-2-13b-chat.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "llama-2-13b-chat.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "llama-2-13b-chat.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-13b-chat.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "llama-2-13b-chat.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "llama-2-13b-chat.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "llama-2-13b-chat.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Llama-2-7B-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "b4e04e128f421c93a5f1e34ac4d7ca9b0af47b80",
+    "downloads": 807,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-7b.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "llama-2-7b.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "llama-2-7b.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-7b.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "llama-2-7b.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "llama-2-7b.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "llama-2-7b.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "llama-2-7b.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "llama-2-7b.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "llama-2-7b.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "llama-2-7b.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "llama-2-7b.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-OpenOrca-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "fbd9cd059e5fa0bba72a0abe8aea7e127d7994cb",
+    "downloads": 783,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-openorca.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-openorca.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-openorca.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-openorca.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-openorca.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-openorca.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-openorca.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-openorca.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-openorca.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-openorca.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-openorca.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-openorca.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "llmware/dragon-yi-6b-v0": {
+    "architecture": "YiForCausalLM",
+    "model_type": "Yi",
+    "dtype": "bfloat16",
+    "file_size": 12.0,
+    "sha1": "0f05ff09c70c8bd55b250a7c3a2673984e843326",
+    "downloads": 754,
+    "config": {
+      "architectures": [
+        "YiForCausalLM"
+      ],
+      "auto_map": {
+        "AutoConfig": "configuration_yi.YiConfig",
+        "AutoModel": "modeling_yi.YiModel",
+        "AutoModelForCausalLM": "modeling_yi.YiForCausalLM"
+      },
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 11008,
+      "max_position_embeddings": 4096,
+      "model_type": "Yi",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 4,
+      "pad_token_id": 0,
+      "rms_norm_eps": 1e-05,
+      "rope_theta": 5000000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.34.0",
+      "use_cache": true,
+      "vocab_size": 64000,
+      "trailing_space": "\n"
+    },
+    "gguf": {
+      "Q4_K_M": {
+        "name": "dragon-yi-6b-q4_k_m.gguf",
+        "size": 3.7
+      }
+    }
+  },
+  "Trelis/Llama-2-7b-chat-hf-function-calling-v3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5,
+    "sha1": "0163499996f08c3f54dae0bfd1dcd2200ae526eb",
+    "downloads": 752,
+    "config": {
+      "_name_or_path": "meta-llama/Llama-2-7b-chat-hf",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "attention_bias": false,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 11008,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 32,
+      "pad_token_id": 0,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "rope_theta": 10000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.35.2",
+      "use_cache": true,
+      "vocab_size": 32000
+    }
+  },
+  "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "5682e25bb033d9d21f6d159859e21df4552c1f26",
+    "downloads": 733,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "openhermes-2.5-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "openhermes-2.5-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "openhermes-2.5-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "openhermes-2.5-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "openhermes-2.5-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "openhermes-2.5-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "openhermes-2.5-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "openhermes-2.5-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "openhermes-2.5-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "openhermes-2.5-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "openhermes-2.5-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Llama-2-13B-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "b106d1c018ac999af9130b83134fb6b7c5331dea",
+    "downloads": 675,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-13b.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "llama-2-13b.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "llama-2-13b.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-13b.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "llama-2-13b.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "llama-2-13b.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "llama-2-13b.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "llama-2-13b.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-13b.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "llama-2-13b.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "llama-2-13b.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "llama-2-13b.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF": {
+    "architecture": null,
+    "model_type": "mixtral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "fa1d3835c5d45a3a74c0b68805fcdc133dba2b6a",
+    "downloads": 637,
+    "config": {
+      "model_type": "mixtral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q2_K.gguf",
+        "size": 16.0
+      },
+      "Q3_K_M": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf",
+        "size": 20.0
+      },
+      "Q4_0": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q4_0.gguf",
+        "size": 26.0
+      },
+      "Q4_K_M": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf",
+        "size": 26.0
+      },
+      "Q5_0": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q5_0.gguf",
+        "size": 32.0
+      },
+      "Q5_K_M": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf",
+        "size": 32.0
+      },
+      "Q6_K": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q6_K.gguf",
+        "size": 38.0
+      },
+      "Q8_0": {
+        "name": "mixtral-8x7b-instruct-v0.1.Q8_0.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/dolphin-2.5-mixtral-8x7b-GGUF": {
+    "architecture": null,
+    "model_type": "mixtral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "976bf0f49c42d74192bce8dd9e25ba6d5e026b44",
+    "downloads": 544,
+    "config": {
+      "model_type": "mixtral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q2_K.gguf",
+        "size": 16.0
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q3_K_M.gguf",
+        "size": 20.0
+      },
+      "Q4_0": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q4_0.gguf",
+        "size": 26.0
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q4_K_M.gguf",
+        "size": 26.0
+      },
+      "Q5_0": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q5_0.gguf",
+        "size": 32.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q5_K_M.gguf",
+        "size": 32.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q6_K.gguf",
+        "size": 38.0
+      },
+      "Q8_0": {
+        "name": "dolphin-2.5-mixtral-8x7b.Q8_0.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/Mixtral-8x7B-v0.1-GGUF": {
+    "architecture": null,
+    "model_type": "mixtral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "38762deaceb8f976428ab44e4c3ccf927a91132a",
+    "downloads": 489,
+    "config": {
+      "model_type": "mixtral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "mixtral-8x7b-v0.1.Q2_K.gguf",
+        "size": 16.0
+      },
+      "Q3_K_M": {
+        "name": "mixtral-8x7b-v0.1.Q3_K_M.gguf",
+        "size": 20.0
+      },
+      "Q4_0": {
+        "name": "mixtral-8x7b-v0.1.Q4_0.gguf",
+        "size": 26.0
+      },
+      "Q4_K_M": {
+        "name": "mixtral-8x7b-v0.1.Q4_K_M.gguf",
+        "size": 26.0
+      },
+      "Q5_0": {
+        "name": "mixtral-8x7b-v0.1.Q5_0.gguf",
+        "size": 32.0
+      },
+      "Q5_K_M": {
+        "name": "mixtral-8x7b-v0.1.Q5_K_M.gguf",
+        "size": 32.0
+      },
+      "Q6_K": {
+        "name": "mixtral-8x7b-v0.1.Q6_K.gguf",
+        "size": 38.0
+      },
+      "Q8_0": {
+        "name": "mixtral-8x7b-v0.1.Q8_0.gguf",
+        "size": 50.0
+      }
+    }
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.2-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "3a6fbf4a41a1d52e415a4958cde6856d34b2db93",
+    "downloads": 485,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-instruct-v0.2.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-instruct-v0.2.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-instruct-v0.2.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-instruct-v0.2.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-instruct-v0.2.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-instruct-v0.2.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-instruct-v0.2.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-instruct-v0.2.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-instruct-v0.2.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-instruct-v0.2.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-instruct-v0.2.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "google/madlad400-10b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 42.9,
+    "sha1": "201888b583e0676f2404616a0eb020b2927a7336",
+    "downloads": 466,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "classifier_dropout": 0.0,
+      "d_ff": 16384,
+      "d_kv": 128,
+      "d_model": 2048,
+      "decoder_start_token_id": 0,
+      "dense_act_fn": "gelu_new",
+      "dropout_rate": 0.1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "is_gated_act": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 32,
+      "num_heads": 32,
+      "num_layers": 32,
+      "output_past": true,
+      "pad_token_id": 1,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "torch_dtype": "float32",
+      "transformers_version": "4.35.0",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 6.0
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 8.8
+      }
+    }
+  },
+  "jbochi/madlad400-7b-mt-bt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 33.3,
+    "sha1": "ad65e3d0e133396588a24c53949875f790edc403",
+    "downloads": 403,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "classifier_dropout": 0.0,
+      "d_ff": 8192,
+      "d_kv": 128,
+      "d_model": 2048,
+      "decoder_start_token_id": 0,
+      "dense_act_fn": "gelu_new",
+      "dropout_rate": 0.1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "is_gated_act": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 48,
+      "num_heads": 16,
+      "num_layers": 48,
+      "output_past": true,
+      "pad_token_id": 1,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "torch_dtype": "float32",
+      "transformers_version": "4.35.0",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "llmware/dragon-llama-7b-v0": {
+    "architecture": "Llama2ForCausalLM",
+    "model_type": "unknown",
+    "dtype": "float16",
+    "file_size": 14.0,
+    "sha1": "3183ab0dd75cf90f24ff8114c33e2ccaadf694a8",
+    "downloads": 402,
+    "config": {
+      "model_class": "llama2",
+      "model_size": "7b",
+      "architectures": [
+        "Llama2ForCausalLM"
+      ],
+      "dim": 4096,
+      "n_layers": 32,
+      "n_heads": 32,
+      "n_kv_heads": null,
+      "vocab_size": 32000,
+      "multiple_of": 256,
+      "ffn_dim_multiplier": null,
+      "norm_eps": 1e-05,
+      "max_batch_size": 32,
+      "max_seq_len": 2048,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "pad_token_id": -1,
+      "torch_dtype": "float16",
+      "pretraining_base": "llama2-7b-2t-tokens",
+      "model_repo_folder_path": "llama2-7b-base"
+    },
+    "gguf": {
+      "Q4_K_M": {
+        "name": "dragon-llama-7b-q4_k_m.gguf",
+        "size": 4.1
+      }
+    }
+  },
+  "TheBloke/Llama-2-70B-Chat-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "798ec30fbdbdde983a1189c8396ea41b8980aa16",
+    "downloads": 390,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-70b-chat.Q2_K.gguf",
+        "size": 29.0
+      },
+      "Q3_K_L": {
+        "name": "llama-2-70b-chat.Q3_K_L.gguf",
+        "size": 36.0
+      },
+      "Q3_K_M": {
+        "name": "llama-2-70b-chat.Q3_K_M.gguf",
+        "size": 33.0
+      },
+      "Q3_K_S": {
+        "name": "llama-2-70b-chat.Q3_K_S.gguf",
+        "size": 30.0
+      },
+      "Q4_0": {
+        "name": "llama-2-70b-chat.Q4_0.gguf",
+        "size": 39.0
+      },
+      "Q4_K_M": {
+        "name": "llama-2-70b-chat.Q4_K_M.gguf",
+        "size": 41.0
+      },
+      "Q4_K_S": {
+        "name": "llama-2-70b-chat.Q4_K_S.gguf",
+        "size": 39.0
+      },
+      "Q5_0": {
+        "name": "llama-2-70b-chat.Q5_0.gguf",
+        "size": 48.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-70b-chat.Q5_K_M.gguf",
+        "size": 49.0
+      },
+      "Q5_K_S": {
+        "name": "llama-2-70b-chat.Q5_K_S.gguf",
+        "size": 31.0
+      }
+    }
+  },
+  "jbochi/madlad400-7b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 33.3,
+    "sha1": "db6c36620e757fc56e37f578c3bed31414725a56",
+    "downloads": 329,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "classifier_dropout": 0.0,
+      "d_ff": 8192,
+      "d_kv": 128,
+      "d_model": 2048,
+      "decoder_start_token_id": 0,
+      "dense_act_fn": "gelu_new",
+      "dropout_rate": 0.1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "is_gated_act": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 48,
+      "num_heads": 16,
+      "num_layers": 48,
+      "output_past": true,
+      "pad_token_id": 1,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "torch_dtype": "float32",
+      "transformers_version": "4.35.0",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "TheBloke/zephyr-7B-alpha-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "17246e1732130e712d6d53b46c2f5179d47e84e9",
+    "downloads": 321,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "zephyr-7b-alpha.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "zephyr-7b-alpha.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "zephyr-7b-alpha.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "zephyr-7b-alpha.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "zephyr-7b-alpha.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "zephyr-7b-alpha.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "zephyr-7b-alpha.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "zephyr-7b-alpha.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "zephyr-7b-alpha.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "zephyr-7b-alpha.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "zephyr-7b-alpha.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "zephyr-7b-alpha.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF": {
+    "architecture": null,
+    "model_type": "tinyllama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "f3bca1fa3f4dc760aaa2a5192d52a040fecdb1ee",
+    "downloads": 294,
+    "config": {
+      "model_type": "tinyllama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q2_K.gguf",
+        "size": 0.470703125
+      },
+      "Q3_K_L": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_L.gguf",
+        "size": 0.578125
+      },
+      "Q3_K_M": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_M.gguf",
+        "size": 0.537109375
+      },
+      "Q3_K_S": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_S.gguf",
+        "size": 0.4873046875
+      },
+      "Q4_0": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_0.gguf",
+        "size": 0.6220703125
+      },
+      "Q4_K_M": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_M.gguf",
+        "size": 0.65234375
+      },
+      "Q4_K_S": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_S.gguf",
+        "size": 0.6279296875
+      },
+      "Q5_0": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_0.gguf",
+        "size": 0.748046875
+      },
+      "Q5_K_M": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_M.gguf",
+        "size": 0.763671875
+      },
+      "Q5_K_S": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_S.gguf",
+        "size": 0.748046875
+      },
+      "Q6_K": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q6_K.gguf",
+        "size": 0.8818359375
+      },
+      "Q8_0": {
+        "name": "tinyllama-1.1b-intermediate-step-715k-1.5t.Q8_0.gguf",
+        "size": 1.2
+      }
+    }
+  },
+  "TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF": {
+    "architecture": null,
+    "model_type": "tinyllama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "b32046744d93031a26c8e925de2c8932c305f7b9",
+    "downloads": 282,
+    "config": {
+      "model_type": "tinyllama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q2_K.gguf",
+        "size": 0.470703125
+      },
+      "Q3_K_L": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q3_K_L.gguf",
+        "size": 0.578125
+      },
+      "Q3_K_M": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q3_K_M.gguf",
+        "size": 0.537109375
+      },
+      "Q3_K_S": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q3_K_S.gguf",
+        "size": 0.4873046875
+      },
+      "Q4_0": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q4_0.gguf",
+        "size": 0.6220703125
+      },
+      "Q4_K_M": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf",
+        "size": 0.65234375
+      },
+      "Q4_K_S": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q4_K_S.gguf",
+        "size": 0.6279296875
+      },
+      "Q5_0": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q5_0.gguf",
+        "size": 0.748046875
+      },
+      "Q5_K_M": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q5_K_M.gguf",
+        "size": 0.763671875
+      },
+      "Q5_K_S": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q5_K_S.gguf",
+        "size": 0.748046875
+      },
+      "Q6_K": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q6_K.gguf",
+        "size": 0.8818359375
+      },
+      "Q8_0": {
+        "name": "tinyllama-1.1b-chat-v0.3.Q8_0.gguf",
+        "size": 1.2
+      }
+    }
+  },
+  "TheBloke/Orca-2-7B-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "13f4f3f200ee07ba0ac1edf0369a24d2050da7b4",
+    "downloads": 266,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "orca-2-7b.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "orca-2-7b.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "orca-2-7b.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "orca-2-7b.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "orca-2-7b.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "orca-2-7b.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "orca-2-7b.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "orca-2-7b.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "orca-2-7b.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "orca-2-7b.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "orca-2-7b.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "orca-2-7b.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/Orca-2-13B-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "a81534ca9ad14dd5e47eadeb04976528cd639e5f",
+    "downloads": 263,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "orca-2-13b.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "orca-2-13b.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "orca-2-13b.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "orca-2-13b.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "orca-2-13b.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "orca-2-13b.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "orca-2-13b.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "orca-2-13b.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "orca-2-13b.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "orca-2-13b.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "orca-2-13b.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "orca-2-13b.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/openchat_3.5-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "9145d8078ca54b163b4b7f7d45cf525b63ee77f8",
+    "downloads": 261,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "openchat_3.5.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "openchat_3.5.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "openchat_3.5.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "openchat_3.5.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "openchat_3.5.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "openchat_3.5.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "openchat_3.5.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "openchat_3.5.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "openchat_3.5.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "openchat_3.5.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "openchat_3.5.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "openchat_3.5.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Guanaco-13B-Uncensored-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "03fc7eea33d5398d241abedad00fd9cd1b814148",
+    "downloads": 242,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "guanaco-13b-uncensored.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "guanaco-13b-uncensored.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "guanaco-13b-uncensored.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "guanaco-13b-uncensored.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "guanaco-13b-uncensored.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "guanaco-13b-uncensored.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "guanaco-13b-uncensored.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "guanaco-13b-uncensored.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "guanaco-13b-uncensored.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "guanaco-13b-uncensored.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "guanaco-13b-uncensored.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "guanaco-13b-uncensored.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Chinese-Alpaca-2-13B-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "6627693d5deaab37ead64a1c75dddfd5e1a4084f",
+    "downloads": 230,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "chinese-alpaca-2-13b.Q2_K.gguf",
+        "size": 5.6
+      },
+      "Q3_K_L": {
+        "name": "chinese-alpaca-2-13b.Q3_K_L.gguf",
+        "size": 7.1
+      },
+      "Q3_K_M": {
+        "name": "chinese-alpaca-2-13b.Q3_K_M.gguf",
+        "size": 6.5
+      },
+      "Q3_K_S": {
+        "name": "chinese-alpaca-2-13b.Q3_K_S.gguf",
+        "size": 5.8
+      },
+      "Q4_0": {
+        "name": "chinese-alpaca-2-13b.Q4_0.gguf",
+        "size": 7.5
+      },
+      "Q4_K_M": {
+        "name": "chinese-alpaca-2-13b.Q4_K_M.gguf",
+        "size": 8.0
+      },
+      "Q4_K_S": {
+        "name": "chinese-alpaca-2-13b.Q4_K_S.gguf",
+        "size": 7.6
+      },
+      "Q5_0": {
+        "name": "chinese-alpaca-2-13b.Q5_0.gguf",
+        "size": 9.2
+      },
+      "Q5_K_M": {
+        "name": "chinese-alpaca-2-13b.Q5_K_M.gguf",
+        "size": 9.4
+      },
+      "Q5_K_S": {
+        "name": "chinese-alpaca-2-13b.Q5_K_S.gguf",
+        "size": 9.2
+      },
+      "Q6_K": {
+        "name": "chinese-alpaca-2-13b.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "chinese-alpaca-2-13b.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/Tinyllama-2-1b-miniguanaco-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "d1c4ea0af66f6a27786ed9dcde826d45e4d7558c",
+    "downloads": 228,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "tinyllama-2-1b-miniguanaco.Q2_K.gguf",
+        "size": 0.470703125
+      },
+      "Q3_K_L": {
+        "name": "tinyllama-2-1b-miniguanaco.Q3_K_L.gguf",
+        "size": 0.578125
+      },
+      "Q3_K_M": {
+        "name": "tinyllama-2-1b-miniguanaco.Q3_K_M.gguf",
+        "size": 0.537109375
+      },
+      "Q3_K_S": {
+        "name": "tinyllama-2-1b-miniguanaco.Q3_K_S.gguf",
+        "size": 0.4873046875
+      },
+      "Q4_0": {
+        "name": "tinyllama-2-1b-miniguanaco.Q4_0.gguf",
+        "size": 0.6220703125
+      },
+      "Q4_K_M": {
+        "name": "tinyllama-2-1b-miniguanaco.Q4_K_M.gguf",
+        "size": 0.65234375
+      },
+      "Q4_K_S": {
+        "name": "tinyllama-2-1b-miniguanaco.Q4_K_S.gguf",
+        "size": 0.6279296875
+      },
+      "Q5_0": {
+        "name": "tinyllama-2-1b-miniguanaco.Q5_0.gguf",
+        "size": 0.748046875
+      },
+      "Q5_K_M": {
+        "name": "tinyllama-2-1b-miniguanaco.Q5_K_M.gguf",
+        "size": 0.763671875
+      },
+      "Q5_K_S": {
+        "name": "tinyllama-2-1b-miniguanaco.Q5_K_S.gguf",
+        "size": 0.748046875
+      },
+      "Q6_K": {
+        "name": "tinyllama-2-1b-miniguanaco.Q6_K.gguf",
+        "size": 0.8818359375
+      },
+      "Q8_0": {
+        "name": "tinyllama-2-1b-miniguanaco.Q8_0.gguf",
+        "size": 1.2
+      }
+    }
+  },
+  "TheBloke/Chinese-Alpaca-2-7B-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "d23f3b30e12bd5854cefb1e41d1dd90df6c31717",
+    "downloads": 225,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "chinese-alpaca-2-7b.Q2_K.gguf",
+        "size": 2.9
+      },
+      "Q3_K_L": {
+        "name": "chinese-alpaca-2-7b.Q3_K_L.gguf",
+        "size": 3.7
+      },
+      "Q3_K_M": {
+        "name": "chinese-alpaca-2-7b.Q3_K_M.gguf",
+        "size": 3.4
+      },
+      "Q3_K_S": {
+        "name": "chinese-alpaca-2-7b.Q3_K_S.gguf",
+        "size": 3.1
+      },
+      "Q4_0": {
+        "name": "chinese-alpaca-2-7b.Q4_0.gguf",
+        "size": 4.0
+      },
+      "Q4_K_M": {
+        "name": "chinese-alpaca-2-7b.Q4_K_M.gguf",
+        "size": 4.2
+      },
+      "Q4_K_S": {
+        "name": "chinese-alpaca-2-7b.Q4_K_S.gguf",
+        "size": 4.0
+      },
+      "Q5_0": {
+        "name": "chinese-alpaca-2-7b.Q5_0.gguf",
+        "size": 4.8
+      },
+      "Q5_K_M": {
+        "name": "chinese-alpaca-2-7b.Q5_K_M.gguf",
+        "size": 4.9
+      },
+      "Q5_K_S": {
+        "name": "chinese-alpaca-2-7b.Q5_K_S.gguf",
+        "size": 4.8
+      },
+      "Q6_K": {
+        "name": "chinese-alpaca-2-7b.Q6_K.gguf",
+        "size": 5.7
+      },
+      "Q8_0": {
+        "name": "chinese-alpaca-2-7b.Q8_0.gguf",
+        "size": 7.4
+      }
+    }
+  },
+  "TheBloke/neural-chat-7B-v3-1-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "723a8ada34c5cb4d1bc44285b90b6797e0720a89",
+    "downloads": 223,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "neural-chat-7b-v3-1.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "neural-chat-7b-v3-1.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "neural-chat-7b-v3-1.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "neural-chat-7b-v3-1.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "neural-chat-7b-v3-1.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "neural-chat-7b-v3-1.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "neural-chat-7b-v3-1.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "neural-chat-7b-v3-1.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "neural-chat-7b-v3-1.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "neural-chat-7b-v3-1.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "neural-chat-7b-v3-1.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "neural-chat-7b-v3-1.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Llama-2-13B-Ensemble-v5-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "bf8533401b9eb46855690fb06920e1e5ddf2f7e2",
+    "downloads": 211,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-13b-ensemble-v5.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "llama-2-13b-ensemble-v5.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "llama-2-13b-ensemble-v5.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-13b-ensemble-v5.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "llama-2-13b-ensemble-v5.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "llama-2-13b-ensemble-v5.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "llama-2-13b-ensemble-v5.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "llama-2-13b-ensemble-v5.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "llama-2-13b-ensemble-v5.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "llama-2-13b-ensemble-v5.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "llama-2-13b-ensemble-v5.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "llama-2-13b-ensemble-v5.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "lemonilia/Limamono-Mistral-7B-v0.50": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 0.08203125,
+    "sha1": "e653a78c4fb58f4ba649f102641b81955ff751a3",
+    "downloads": 204,
+    "config": {
+      "_name_or_path": "/home/anon/AI-Models/LLM/Mistral-7B-v0.1/",
+      "architectures": [
+        "MistralForCausalLM"
+      ],
+      "attention_dropout": 0.0,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 14336,
+      "max_position_embeddings": 32768,
+      "model_type": "mistral",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 8,
+      "quantization_config": {
+        "bnb_4bit_compute_dtype": "float32",
+        "bnb_4bit_quant_type": "fp4",
+        "bnb_4bit_use_double_quant": false,
+        "llm_int8_enable_fp32_cpu_offload": false,
+        "llm_int8_has_fp16_weight": false,
+        "llm_int8_skip_modules": null,
+        "llm_int8_threshold": 6.0,
+        "load_in_4bit": null,
+        "load_in_8bit": true,
+        "quant_method": "bitsandbytes"
+      },
+      "rms_norm_eps": 1e-05,
+      "rope_theta": 10000.0,
+      "sliding_window": 4096,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.36.0",
+      "use_cache": false,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "Limamono-Mistral-7B-v0.50-Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q5_K_M": {
+        "name": "Limamono-Mistral-7B-v0.50-Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q6_K": {
+        "name": "Limamono-Mistral-7B-v0.50-Q6_K.gguf",
+        "size": 5.9
+      }
+    }
+  },
+  "TinyLlama/TinyLlama-1.1B-python-v0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4,
+    "sha1": "f8cb02e22e3da38ef962fe1eb1be7f70215253f7",
+    "downloads": 200,
+    "config": {
+      "_name_or_path": "meta-llama/Llama-2-7b-hf",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 2048,
+      "initializer_range": 0.02,
+      "intermediate_size": 5632,
+      "max_position_embeddings": 2048,
+      "model_type": "llama",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 22,
+      "num_key_value_heads": 4,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "tie_word_embeddings": false,
+      "torch_dtype": "float32",
+      "transformers_version": "4.31.0.dev0",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q4_0": {
+        "name": "ggml-model-q4_0.gguf",
+        "size": 0.6220703125
+      }
+    }
+  },
+  "TheBloke/CodeLlama-7B-Instruct-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "2f064ee0c6ae3f025ec4e392c6ba5dd049c77969",
+    "downloads": 197,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "codellama-7b-instruct.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "codellama-7b-instruct.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "codellama-7b-instruct.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "codellama-7b-instruct.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "codellama-7b-instruct.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "codellama-7b-instruct.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "codellama-7b-instruct.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "codellama-7b-instruct.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "codellama-7b-instruct.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "codellama-7b-instruct.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "codellama-7b-instruct.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "codellama-7b-instruct.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/dolphin-2.0-mistral-7B-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "3b345ee148d25b2da209c6166e855dc4845fcb4e",
+    "downloads": 195,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.0-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "dolphin-2.0-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.0-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "dolphin-2.0-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "dolphin-2.0-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.0-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "dolphin-2.0-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "dolphin-2.0-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.0-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "dolphin-2.0-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.0-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "dolphin-2.0-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/stablelm-zephyr-3b-GGUF": {
+    "architecture": null,
+    "model_type": "stablelm",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "465310e5eb914190e89f531cc1c348812e27dcea",
+    "downloads": 194,
+    "config": {
+      "model_type": "stablelm"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "stablelm-zephyr-3b.Q2_K.gguf",
+        "size": 1.2
+      },
+      "Q3_K_L": {
+        "name": "stablelm-zephyr-3b.Q3_K_L.gguf",
+        "size": 1.5
+      },
+      "Q3_K_M": {
+        "name": "stablelm-zephyr-3b.Q3_K_M.gguf",
+        "size": 1.4
+      },
+      "Q3_K_S": {
+        "name": "stablelm-zephyr-3b.Q3_K_S.gguf",
+        "size": 1.3
+      },
+      "Q4_0": {
+        "name": "stablelm-zephyr-3b.Q4_0.gguf",
+        "size": 1.6
+      },
+      "Q4_K_M": {
+        "name": "stablelm-zephyr-3b.Q4_K_M.gguf",
+        "size": 1.7
+      },
+      "Q4_K_S": {
+        "name": "stablelm-zephyr-3b.Q4_K_S.gguf",
+        "size": 1.6
+      },
+      "Q5_0": {
+        "name": "stablelm-zephyr-3b.Q5_0.gguf",
+        "size": 1.9
+      },
+      "Q5_K_M": {
+        "name": "stablelm-zephyr-3b.Q5_K_M.gguf",
+        "size": 2.0
+      },
+      "Q5_K_S": {
+        "name": "stablelm-zephyr-3b.Q5_K_S.gguf",
+        "size": 1.9
+      },
+      "Q6_K": {
+        "name": "stablelm-zephyr-3b.Q6_K.gguf",
+        "size": 2.3
+      },
+      "Q8_0": {
+        "name": "stablelm-zephyr-3b.Q8_0.gguf",
+        "size": 3.0
+      }
+    }
+  },
+  "TheBloke/CodeLlama-7B-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "98596f7f6c318118824bcbee4b0e20010ec510ec",
+    "downloads": 184,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "codellama-7b.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "codellama-7b.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "codellama-7b.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "codellama-7b.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "codellama-7b.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "codellama-7b.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "codellama-7b.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "codellama-7b.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "codellama-7b.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "codellama-7b.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "codellama-7b.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "codellama-7b.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/dolphin-2.2.1-mistral-7B-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "34548d6105f2ffdc35b066364a954d42c24a2d87",
+    "downloads": 177,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.2.1-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "dolphin-2.2.1-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.2.1-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "dolphin-2.2.1-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "dolphin-2.2.1-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.2.1-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "dolphin-2.2.1-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "dolphin-2.2.1-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.2.1-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "dolphin-2.2.1-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.2.1-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "dolphin-2.2.1-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TabbyML/StarCoder-1B": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float32",
+    "file_size": 4.5,
+    "sha1": "f43ec97682c4afb3b851241c8ca4893a6d01c60c",
+    "downloads": 167,
+    "config": {
+      "_name_or_path": "/fsx/bigcode/experiments/pretraining/conversions/starcoder-1b",
+      "activation_function": "gelu_pytorch_tanh",
+      "architectures": [
+        "GPTBigCodeForCausalLM"
+      ],
+      "attention_softmax_in_fp32": true,
+      "multi_query": true,
+      "attn_pdrop": 0.1,
+      "bos_token_id": 0,
+      "embd_pdrop": 0.1,
+      "eos_token_id": 0,
+      "inference_runner": 0,
+      "initializer_range": 0.02,
+      "layer_norm_epsilon": 1e-05,
+      "max_batch_size": null,
+      "max_sequence_length": null,
+      "model_type": "gpt_bigcode",
+      "n_embd": 2048,
+      "n_head": 16,
+      "n_inner": 8192,
+      "n_layer": 24,
+      "n_positions": 8192,
+      "pad_key_length": true,
+      "pre_allocate_kv_cache": false,
+      "resid_pdrop": 0.1,
+      "scale_attention_softmax_in_fp32": true,
+      "scale_attn_weights": true,
+      "summary_activation": null,
+      "summary_first_dropout": 0.1,
+      "summary_proj_to_labels": true,
+      "summary_type": "cls_index",
+      "summary_use_proj": true,
+      "torch_dtype": "float32",
+      "transformers_version": "4.28.1",
+      "use_cache": true,
+      "validate_runner_input": true,
+      "vocab_size": 49152
+    }
+  },
+  "TheBloke/deepseek-coder-6.7B-instruct-GGUF": {
+    "architecture": null,
+    "model_type": "deepseek",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+    "downloads": 167,
+    "config": {
+      "model_type": "deepseek"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "deepseek-coder-6.7b-instruct.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "deepseek-coder-6.7b-instruct.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "deepseek-coder-6.7b-instruct.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "deepseek-coder-6.7b-instruct.Q3_K_S.gguf",
+        "size": 3.0
+      },
+      "Q4_0": {
+        "name": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "deepseek-coder-6.7b-instruct.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "deepseek-coder-6.7b-instruct.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "deepseek-coder-6.7b-instruct.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "deepseek-coder-6.7b-instruct.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "deepseek-coder-6.7b-instruct.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "TheBloke/CodeLlama-13B-Instruct-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "82f1dd9567b9b20b7e8f8aa9ecf3d2f121e5d415",
+    "downloads": 165,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "codellama-13b-instruct.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "codellama-13b-instruct.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "codellama-13b-instruct.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "codellama-13b-instruct.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "codellama-13b-instruct.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "codellama-13b-instruct.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "codellama-13b-instruct.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "codellama-13b-instruct.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "codellama-13b-instruct.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "codellama-13b-instruct.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "codellama-13b-instruct.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "codellama-13b-instruct.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "TheBloke/dolphin-2.1-mistral-7B-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "9fc40401811a50b36cd6f992975cec5a24e87ccf",
+    "downloads": 161,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "dolphin-2.1-mistral-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "dolphin-2.1-mistral-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "dolphin-2.1-mistral-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "dolphin-2.1-mistral-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "dolphin-2.1-mistral-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "dolphin-2.1-mistral-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "dolphin-2.1-mistral-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "dolphin-2.1-mistral-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "dolphin-2.1-mistral-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "dolphin-2.1-mistral-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "dolphin-2.1-mistral-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "dolphin-2.1-mistral-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/phi-2-GGUF": {
+    "architecture": null,
+    "model_type": "phi-msft",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "5a454d977c6438bb9fb2df233c8ca70f21c87420",
+    "downloads": 146,
+    "config": {
+      "model_type": "phi-msft"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "phi-2.Q2_K.gguf",
+        "size": 1.2
+      },
+      "Q3_K_L": {
+        "name": "phi-2.Q3_K_L.gguf",
+        "size": 1.6
+      },
+      "Q3_K_M": {
+        "name": "phi-2.Q3_K_M.gguf",
+        "size": 1.5
+      },
+      "Q3_K_S": {
+        "name": "phi-2.Q3_K_S.gguf",
+        "size": 1.3
+      },
+      "Q4_0": {
+        "name": "phi-2.Q4_0.gguf",
+        "size": 1.6
+      },
+      "Q4_K_M": {
+        "name": "phi-2.Q4_K_M.gguf",
+        "size": 1.8
+      },
+      "Q4_K_S": {
+        "name": "phi-2.Q4_K_S.gguf",
+        "size": 1.6
+      },
+      "Q5_0": {
+        "name": "phi-2.Q5_0.gguf",
+        "size": 1.9
+      },
+      "Q5_K_M": {
+        "name": "phi-2.Q5_K_M.gguf",
+        "size": 2.1
+      },
+      "Q5_K_S": {
+        "name": "phi-2.Q5_K_S.gguf",
+        "size": 1.9
+      },
+      "Q6_K": {
+        "name": "phi-2.Q6_K.gguf",
+        "size": 2.3
+      },
+      "Q8_0": {
+        "name": "phi-2.Q8_0.gguf",
+        "size": 3.0
+      }
+    }
+  },
+  "radames/phi-2-quantized": {
+    "architecture": "PhiForCausalLM",
+    "model_type": "phi-msft",
+    "dtype": "float16",
+    "file_size": 0,
+    "sha1": "7baaa036103bee1c7344fcfcc967f1d69dca0fb1",
+    "downloads": 133,
+    "config": {
+      "_name_or_path": "microsoft/phi-2",
+      "activation_function": "gelu",
+      "architectures": [
+        "PhiForCausalLM"
+      ],
+      "attn_pdrop": 0.0,
+      "auto_map": {
+        "AutoConfig": "configuration_phi.PhiConfig",
+        "AutoModelForCausalLM": "modeling_phi.PhiForCausalLM"
+      },
+      "embd_pdrop": 0.0,
+      "flash_attn": false,
+      "flash_rotary": false,
+      "fused_dense": false,
+      "img_processor": null,
+      "initializer_range": 0.02,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "phi-msft",
+      "n_embd": 2560,
+      "n_head": 32,
+      "n_head_kv": null,
+      "n_inner": null,
+      "n_layer": 32,
+      "n_positions": 2048,
+      "resid_pdrop": 0.1,
+      "rotary_dim": 32,
+      "tie_word_embeddings": false,
+      "torch_dtype": "float16",
+      "transformers_version": "4.35.2",
+      "vocab_size": 51200,
+      "pad_vocab_size_multiple": 64
+    },
+    "gguf": {
+      "Q4_K": {
+        "name": "model-v2-q4k.gguf",
+        "size": 1.6
+      },
+      "Q5_0": {
+        "name": "model-v2-q50.gguf",
+        "size": 1.9
+      },
+      "Q8_0": {
+        "name": "model-v2-q80.gguf",
+        "size": 3.0
+      }
+    }
+  },
+  "TheBloke/OpenHermes-2.5-neural-chat-7B-v3-1-7B-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "6d87d41eb02da849f76024e727e920d865615c1e",
+    "downloads": 132,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "openhermes-2.5-neural-chat-7b-v3-1-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "TheBloke/Xwin-MLewd-13B-v0.2-GGUF": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "e814ae3f6d20f8b7ed6a97531b525c84d8207bcf",
+    "downloads": 131,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "xwin-mlewd-13b-v0.2.Q2_K.gguf",
+        "size": 5.4
+      },
+      "Q3_K_L": {
+        "name": "xwin-mlewd-13b-v0.2.Q3_K_L.gguf",
+        "size": 6.9
+      },
+      "Q3_K_M": {
+        "name": "xwin-mlewd-13b-v0.2.Q3_K_M.gguf",
+        "size": 6.3
+      },
+      "Q3_K_S": {
+        "name": "xwin-mlewd-13b-v0.2.Q3_K_S.gguf",
+        "size": 5.7
+      },
+      "Q4_0": {
+        "name": "xwin-mlewd-13b-v0.2.Q4_0.gguf",
+        "size": 7.4
+      },
+      "Q4_K_M": {
+        "name": "xwin-mlewd-13b-v0.2.Q4_K_M.gguf",
+        "size": 7.9
+      },
+      "Q4_K_S": {
+        "name": "xwin-mlewd-13b-v0.2.Q4_K_S.gguf",
+        "size": 7.4
+      },
+      "Q5_0": {
+        "name": "xwin-mlewd-13b-v0.2.Q5_0.gguf",
+        "size": 9.0
+      },
+      "Q5_K_M": {
+        "name": "xwin-mlewd-13b-v0.2.Q5_K_M.gguf",
+        "size": 9.2
+      },
+      "Q5_K_S": {
+        "name": "xwin-mlewd-13b-v0.2.Q5_K_S.gguf",
+        "size": 9.0
+      },
+      "Q6_K": {
+        "name": "xwin-mlewd-13b-v0.2.Q6_K.gguf",
+        "size": 11.0
+      },
+      "Q8_0": {
+        "name": "xwin-mlewd-13b-v0.2.Q8_0.gguf",
+        "size": 14.0
+      }
+    }
+  },
+  "hoangton/PhoGPT-7B5-GGUF": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": null,
+    "sha1": "fabd9c0db7394ab11e9d97e0595ac466030e1548",
+    "downloads": 128,
+    "config": {
+      "architectures": [
+        "MPTForCausalLM"
+      ],
+      "attn_config": {
+        "alibi": true,
+        "alibi_bias_max": 8,
+        "attn_impl": "torch",
+        "attn_pdrop": 0.0,
+        "attn_type": "multihead_attention",
+        "attn_uses_sequence_id": false,
+        "clip_qkv": null,
+        "prefix_lm": false,
+        "qk_ln": false,
+        "softmax_scale": null
+      },
+      "auto_map": {
+        "AutoConfig": "configuration_mpt.MPTConfig",
+        "AutoModelForCausalLM": "modeling_mpt.MPTForCausalLM"
+      },
+      "d_model": 4096,
+      "emb_pdrop": 0.0,
+      "embedding_fraction": 1.0,
+      "expansion_ratio": 4,
+      "init_config": {
+        "emb_init_std": null,
+        "emb_init_uniform_lim": null,
+        "fan_mode": "fan_in",
+        "init_div_is_residual": true,
+        "init_gain": 0.0,
+        "init_nonlinearity": "relu",
+        "init_std": null,
+        "name": "kaiming_normal_",
+        "verbose": 0
+      },
+      "init_device": "cpu",
+      "learned_pos_emb": true,
+      "logit_scale": null,
+      "max_seq_len": 2048,
+      "model_type": "mpt",
+      "n_heads": 32,
+      "n_layers": 32,
+      "no_bias": false,
+      "norm_type": "low_precision_layernorm",
+      "resid_pdrop": 0.0,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.30.2",
+      "use_cache": false,
+      "verbose": 0,
+      "vocab_size": 250880
+    }
+  },
+  "TheBloke/Starling-LM-7B-alpha-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "028036db8fcc83779056e6f43d803cd2b0217add",
+    "downloads": 121,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "starling-lm-7b-alpha.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "starling-lm-7b-alpha.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "starling-lm-7b-alpha.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "starling-lm-7b-alpha.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "starling-lm-7b-alpha.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "starling-lm-7b-alpha.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "starling-lm-7b-alpha.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "starling-lm-7b-alpha.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "starling-lm-7b-alpha.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "starling-lm-7b-alpha.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "starling-lm-7b-alpha.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "starling-lm-7b-alpha.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "google/madlad400-7b-mt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 33.3,
+    "sha1": "1ff63ce7ddd571a69d45cad9672c553428419671",
+    "downloads": 116,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "classifier_dropout": 0.0,
+      "d_ff": 8192,
+      "d_kv": 128,
+      "d_model": 2048,
+      "decoder_start_token_id": 0,
+      "dense_act_fn": "gelu_new",
+      "dropout_rate": 0.1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "is_gated_act": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 48,
+      "num_heads": 16,
+      "num_layers": 48,
+      "output_past": true,
+      "pad_token_id": 1,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "torch_dtype": "float32",
+      "transformers_version": "4.35.0",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "WisdomShell/CodeShell-7B-Chat-int4": {
+    "architecture": "CodeShell4bitForCausalLM",
+    "model_type": "codeshell",
+    "dtype": "bfloat16",
+    "file_size": 4.7,
+    "sha1": "3c11d725120c61a163adfca1d31587fce02371d5",
+    "downloads": 113,
+    "config": {
+      "_name_or_path": "WisdomShell/CodeShell",
+      "activation_function": "gelu_pytorch_tanh",
+      "architectures": [
+        "CodeShell4bitForCausalLM"
+      ],
+      "attention_softmax_in_fp32": true,
+      "attn_pdrop": 0.1,
+      "auto_map": {
+        "AutoConfig": "configuration_codeshell.CodeShellConfig",
+        "AutoModelForCausalLM": "modeling_codeshell.CodeShell4bitForCausalLM"
+      },
+      "bos_token_id": 70000,
+      "embd_pdrop": 0.1,
+      "eos_token_id": 70000,
+      "group_query_attention": true,
+      "inference_runner": 0,
+      "initializer_range": 0.02,
+      "layer_norm_epsilon": 1e-05,
+      "max_batch_size": null,
+      "max_sequence_length": null,
+      "model_type": "codeshell",
+      "n_embd": 4096,
+      "n_head": 32,
+      "n_inner": 16384,
+      "n_layer": 42,
+      "n_positions": 8192,
+      "num_query_groups": 8,
+      "pad_key_length": true,
+      "position_embedding_type": "rope",
+      "pre_allocate_kv_cache": false,
+      "resid_pdrop": 0.1,
+      "rope_scaling": null,
+      "scale_attention_softmax_in_fp32": true,
+      "scale_attn_weights": true,
+      "summary_activation": null,
+      "summary_first_dropout": 0.1,
+      "summary_proj_to_labels": true,
+      "summary_type": "cls_index",
+      "summary_use_proj": true,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.31.0",
+      "use_cache": true,
+      "validate_runner_input": true,
+      "vocab_size": 70144
+    },
+    "gguf": {
+      "Q4_0": {
+        "name": "codeshell-chat-q4_0.gguf",
+        "size": 4.6
+      }
+    }
+  },
+  "YanaS/llama-2-7b-langchain-chat-GGUF": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 0,
+    "sha1": "57cc8945070e5f1610a745e813cb7c83945a8fde",
+    "downloads": 110,
+    "config": {
+      "_name_or_path": "NousResearch/Llama-2-7b-chat-hf",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 11008,
+      "max_position_embeddings": 4096,
+      "model_type": "llama",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 32,
+      "pad_token_id": 0,
+      "pretraining_tp": 1,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": null,
+      "tie_word_embeddings": false,
+      "torch_dtype": "float16",
+      "transformers_version": "4.31.0",
+      "use_cache": true,
+      "vocab_size": 32000
+    },
+    "gguf": {
+      "Q4_K_M": {
+        "name": "llama-2-7b-langchain-chat-Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q5_K_M": {
+        "name": "llama-2-7b-langchain-chat-Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q6_K": {
+        "name": "llama-2-7b-langchain-chat-Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "llama-2-7b-langchain-chat-Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "Utkarsh55/Nous-Hermes-Llama-2-7B-GGUF-Profiles": {
+    "architecture": null,
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "ca447af9f89bbdbd9e20442e8ead3671bef1db84",
+    "downloads": 110,
+    "config": {
+      "model_type": "llama"
+    },
+    "gguf": {
+      "Q5_K_M": {
+        "name": "nous-hermes-llama-2-7b.Q5_K_M.gguf",
+        "size": 4.8
+      }
+    }
+  },
+  "TheBloke/sqlcoder-7B-GGUF": {
+    "architecture": null,
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "144bf062e825baf76764546718f940f70b1a0302",
+    "downloads": 108,
+    "config": {
+      "model_type": "mistral"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "sqlcoder-7b.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "sqlcoder-7b.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "sqlcoder-7b.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "sqlcoder-7b.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "sqlcoder-7b.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "sqlcoder-7b.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "sqlcoder-7b.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "sqlcoder-7b.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "sqlcoder-7b.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "sqlcoder-7b.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "sqlcoder-7b.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "sqlcoder-7b.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "google/madlad400-7b-mt-bt": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 33.3,
+    "sha1": "1259294dcefa2a4d8e0167ad418fdb47cfaeeca3",
+    "downloads": 108,
+    "config": {
+      "architectures": [
+        "T5ForConditionalGeneration"
+      ],
+      "classifier_dropout": 0.0,
+      "d_ff": 8192,
+      "d_kv": 128,
+      "d_model": 2048,
+      "decoder_start_token_id": 0,
+      "dense_act_fn": "gelu_new",
+      "dropout_rate": 0.1,
+      "eos_token_id": 2,
+      "feed_forward_proj": "gated-gelu",
+      "initializer_factor": 1.0,
+      "is_encoder_decoder": true,
+      "is_gated_act": true,
+      "layer_norm_epsilon": 1e-06,
+      "model_type": "t5",
+      "n_positions": 512,
+      "num_decoder_layers": 48,
+      "num_heads": 16,
+      "num_layers": 48,
+      "output_past": true,
+      "pad_token_id": 1,
+      "relative_attention_max_distance": 128,
+      "relative_attention_num_buckets": 32,
+      "task_specific_params": {},
+      "tie_word_embeddings": false,
+      "torch_dtype": "float32",
+      "transformers_version": "4.35.0",
+      "use_cache": true,
+      "vocab_size": 256000
+    },
+    "gguf": {
+      "Q4_K": {
+        "name": "model-q4k.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "model-q6k.gguf",
+        "size": 6.8
+      }
+    }
+  },
+  "TheBloke/sqlcoder2-GGUF": {
+    "architecture": null,
+    "model_type": "starcoder",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "bb29b37e3365a1b181d64fd6b0a3a3db83000509",
+    "downloads": 106,
+    "config": {
+      "model_type": "starcoder"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "sqlcoder2.Q2_K.gguf",
+        "size": 6.7
+      },
+      "Q3_K_L": {
+        "name": "sqlcoder2.Q3_K_L.gguf",
+        "size": 9.1
+      },
+      "Q3_K_M": {
+        "name": "sqlcoder2.Q3_K_M.gguf",
+        "size": 8.2
+      },
+      "Q3_K_S": {
+        "name": "sqlcoder2.Q3_K_S.gguf",
+        "size": 6.9
+      },
+      "Q4_0": {
+        "name": "sqlcoder2.Q4_0.gguf",
+        "size": 9.0
+      },
+      "Q4_K_M": {
+        "name": "sqlcoder2.Q4_K_M.gguf",
+        "size": 10.0
+      },
+      "Q4_K_S": {
+        "name": "sqlcoder2.Q4_K_S.gguf",
+        "size": 9.1
+      },
+      "Q5_0": {
+        "name": "sqlcoder2.Q5_0.gguf",
+        "size": 11.0
+      },
+      "Q5_K_M": {
+        "name": "sqlcoder2.Q5_K_M.gguf",
+        "size": 12.0
+      },
+      "Q5_K_S": {
+        "name": "sqlcoder2.Q5_K_S.gguf",
+        "size": 11.0
+      },
+      "Q6_K": {
+        "name": "sqlcoder2.Q6_K.gguf",
+        "size": 13.0
+      },
+      "Q8_0": {
+        "name": "sqlcoder2.Q8_0.gguf",
+        "size": 17.0
+      }
+    }
+  },
+  "TheBloke/SOLAR-10.7B-Instruct-v1.0-GGUF": {
+    "architecture": null,
+    "model_type": "solar",
+    "dtype": "float32",
+    "file_size": 0,
+    "sha1": "d8b19599252fe4eb9d86bdbb3f212f48f0247d6b",
+    "downloads": 103,
+    "config": {
+      "model_type": "solar"
+    },
+    "gguf": {
+      "Q2_K": {
+        "name": "solar-10.7b-instruct-v1.0.Q2_K.gguf",
+        "size": 4.5
+      },
+      "Q3_K_L": {
+        "name": "solar-10.7b-instruct-v1.0.Q3_K_L.gguf",
+        "size": 5.7
+      },
+      "Q3_K_M": {
+        "name": "solar-10.7b-instruct-v1.0.Q3_K_M.gguf",
+        "size": 5.2
+      },
+      "Q3_K_S": {
+        "name": "solar-10.7b-instruct-v1.0.Q3_K_S.gguf",
+        "size": 4.7
+      },
+      "Q4_0": {
+        "name": "solar-10.7b-instruct-v1.0.Q4_0.gguf",
+        "size": 6.1
+      },
+      "Q4_K_M": {
+        "name": "solar-10.7b-instruct-v1.0.Q4_K_M.gguf",
+        "size": 6.5
+      },
+      "Q4_K_S": {
+        "name": "solar-10.7b-instruct-v1.0.Q4_K_S.gguf",
+        "size": 6.1
+      },
+      "Q5_0": {
+        "name": "solar-10.7b-instruct-v1.0.Q5_0.gguf",
+        "size": 7.4
+      },
+      "Q5_K_M": {
+        "name": "solar-10.7b-instruct-v1.0.Q5_K_M.gguf",
+        "size": 7.6
+      },
+      "Q5_K_S": {
+        "name": "solar-10.7b-instruct-v1.0.Q5_K_S.gguf",
+        "size": 7.4
+      },
+      "Q6_K": {
+        "name": "solar-10.7b-instruct-v1.0.Q6_K.gguf",
+        "size": 8.8
+      },
+      "Q8_0": {
+        "name": "solar-10.7b-instruct-v1.0.Q8_0.gguf",
+        "size": 11.0
+      }
+    }
+  }
+}

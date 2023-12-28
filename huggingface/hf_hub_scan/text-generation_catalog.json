@@ -1,0 +1,7006 @@
+{
+  "distilgpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.3447265625
+  },
+  "gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.53515625
+  },
+  "davidkim205/komt-mistral-7b-v1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "tiiuae/falcon-40b-instruct": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 83.6
+  },
+  "bigscience/bloom-560m": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 1.1
+  },
+  "petals-team/StableBeluga2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 137.00000000000009
+  },
+  "facebook/opt-125m": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 0.244140625
+  },
+  "HuggingFaceM4/tiny-random-LlamaForCausalLM": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 0.00205078125
+  },
+  "facebook/opt-1.3b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 2.6
+  },
+  "NousResearch/Nous-Hermes-Llama2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "mistralai/Mistral-7B-v0.1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "microsoft/git-base": {
+    "architecture": "GitForCausalLM",
+    "model_type": "git",
+    "dtype": "float32",
+    "file_size": 0.689453125
+  },
+  "mistralai/Mistral-7B-Instruct-v0.1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "TheBloke/CodeLlama-34B-Instruct-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 18.0
+  },
+  "gpt2-medium": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.5
+  },
+  "gpt2-large": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 3.2
+  },
+  "cognitivecomputations/Samantha-1.11-70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "Deci/DeciCoder-1b": {
+    "architecture": "DeciCoderForCausalLM",
+    "model_type": "unknown",
+    "dtype": "bfloat16",
+    "file_size": 2.2
+  },
+  "meta-llama/Llama-2-70b-chat-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": null
+  },
+  "TheBloke/Wizard-Vicuna-7B-Uncensored-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.5
+  },
+  "TheBloke/vicuna-7B-v1.3-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 4.0
+  },
+  "EleutherAI/gpt-neo-125m": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 0.513671875
+  },
+  "TheBloke/Llama-2-70B-Chat-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.6
+  },
+  "xlnet-base-cased": {
+    "architecture": "XLNetLMHeadModel",
+    "model_type": "xlnet",
+    "dtype": "float32",
+    "file_size": 0.4560546875
+  },
+  "gpt2-xl": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 6.4
+  },
+  "sshleifer/tiny-gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.00244140625
+  },
+  "TheBloke/vicuna-13B-v1.5-16K-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "h2oai/h2ogpt-4096-llama2-7b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "teknium/OpenHermes-2-Mistral-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "RUCAIBox/mvp-open-dialog": {
+    "model_type": "mvp",
+    "dtype": "float32",
+    "file_size": 1.9
+  },
+  "facebook/opt-350m": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 0.646484375
+  },
+  "Vamsi/T5_Paraphrase_Paws": {
+    "architecture": "T5ForConditionalGeneration",
+    "model_type": "t5",
+    "dtype": "float32",
+    "file_size": 0.87109375
+  },
+  "liuhaotian/llava-v1.5-7b": {
+    "architecture": "LlavaLlamaForCausalLM",
+    "model_type": "llava",
+    "dtype": "float16",
+    "file_size": 13.541015625
+  },
+  "cerebras/Cerebras-GPT-6.7B": {
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mixtral",
+    "dtype": "bfloat16",
+    "file_size": 93.60000000000001
+  },
+  "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mixtral",
+    "dtype": "bfloat16",
+    "file_size": 24.0
+  },
+  "baichuan-inc/Baichuan-13B-Base": {
+    "architecture": "BaichuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "bfloat16",
+    "file_size": 26.5
+  },
+  "fxmarty/tiny-llama-fast-tokenizer": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 0.00205078125
+  },
+  "openai-gpt": {
+    "architecture": "OpenAIGPTLMHeadModel",
+    "model_type": "openai-gpt",
+    "dtype": "float32",
+    "file_size": 0.4677734375
+  },
+  "microsoft/phi-1_5": {
+    "architecture": "PhiForCausalLM",
+    "model_type": "phi-msft",
+    "dtype": "float16",
+    "file_size": 2.8
+  },
+  "echarlaix/tiny-random-mistral": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0.00810546875
+  },
+  "NousResearch/Llama-2-7b-chat-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "microsoft/DialoGPT-medium": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.8427734375
+  },
+  "HuggingFaceH4/zephyr-7b-beta": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.396875
+  },
+  "togethercomputer/GPT-JT-6B-v1": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 12.0
+  },
+  "Qwen/Qwen-1_8B-Chat": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 3.6
+  },
+  "lmsys/vicuna-7b-v1.5": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "fxmarty/really-tiny-falcon-testing": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "float32",
+    "file_size": 0.008203125
+  },
+  "tiiuae/falcon-7b-instruct": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 42.5
+  },
+  "codellama/CodeLlama-34b-Instruct-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.60000000000001
+  },
+  "NousResearch/Llama-2-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "tiiuae/falcon-7b": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 14.5
+  },
+  "lmsys/vicuna-7b-v1.3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "h2oai/h2ogpt-4096-llama2-13b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "bigscience/bloomz-560m": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 1.1
+  },
+  "01-ai/Yi-34B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 68.6
+  },
+  "TheBloke/vicuna-13B-v1.5-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "databricks/dolly-v2-3b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "bfloat16",
+    "file_size": 5.7
+  },
+  "huggyllama/llama-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "EleutherAI/gpt-j-6b": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float32",
+    "file_size": 24.0
+  },
+  "microsoft/phi-2": {
+    "architecture": "PhiForCausalLM",
+    "model_type": "phi-msft",
+    "dtype": "float16",
+    "file_size": 5.5634765625
+  },
+  "Open-Orca/Mistral-7B-OpenOrca": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "succinctly/text2image-prompt-generator": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.6504140625
+  },
+  "NousResearch/Yarn-Mistral-7b-128k": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "microsoft/biogpt": {
+    "architecture": "BioGptForCausalLM",
+    "model_type": "biogpt",
+    "dtype": "float32",
+    "file_size": 1.6
+  },
+  "codellama/CodeLlama-13b-Instruct-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "mosaicml/mpt-7b": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 13.3
+  },
+  "EleutherAI/gpt-neo-1.3B": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 5.3
+  },
+  "Riiid/sheep-duck-llama-2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "mistralai/Mixtral-8x7B-v0.1": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mixtral",
+    "dtype": "bfloat16",
+    "file_size": 93.60000000000001
+  },
+  "TheBloke/Llama-2-13B-chat-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "liuhaotian/llava-v1.5-13b": {
+    "architecture": "LlavaLlamaForCausalLM",
+    "model_type": "llava",
+    "dtype": "float16",
+    "file_size": 26.0615234375
+  },
+  "baichuan-inc/Baichuan2-7B-Base": {
+    "architecture": "BaichuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 8.1
+  },
+  "codellama/CodeLlama-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "lmsys/vicuna-13b-v1.5": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 17.0
+  },
+  "openchat/openchat_3.5": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "openlm-research/open_llama_3b_v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.9
+  },
+  "JackFram/llama-68m": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0.266625
+  },
+  "TheBloke/CodeLlama-34B-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 67.60000000000001
+  },
+  "EleutherAI/gpt-neo-2.7B": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 11.0
+  },
+  "Gryphe/MythoMax-L2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "TheBloke/Llama-2-7B-Chat-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "HuggingFaceH4/zephyr-7b-alpha": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.396875
+  },
+  "facebook/opt-2.7b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 5.3
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.1-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 4.2
+  },
+  "EleutherAI/pythia-70m-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.162109375
+  },
+  "TheBloke/EverythingLM-13B-V3-16K-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "leondz/artgpt2tox": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.486328125
+  },
+  "microsoft/DialoGPT-large": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.8
+  },
+  "NousResearch/Obsidian-3B-V0.5": {
+    "architecture": "LlavaStableLMEpochForCausalLM",
+    "model_type": "llava_stablelm_epoch",
+    "dtype": "bfloat16",
+    "file_size": 6.2185781250000005
+  },
+  "codellama/CodeLlama-7b-Instruct-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "teknium/OpenHermes-2.5-Mistral-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "facebook/opt-6.7b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 13.4
+  },
+  "EleutherAI/gpt-neox-20b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 40.3125
+  },
+  "tiiuae/falcon-rw-1b": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 2.6
+  },
+  "upstage/SOLAR-0-70b-16bit": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "stabilityai/StableBeluga-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "TheBloke/Falcon-180B-Chat-GPTQ": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "float16",
+    "file_size": 94.10000000000001
+  },
+  "TheBloke/Mistral-7B-OpenOrca-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "elyza/ELYZA-japanese-Llama-2-7b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Intel/neural-chat-7b-v3-1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "openlm-research/open_llama_13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "princeton-nlp/Sheared-LLaMA-1.3B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 5.4
+  },
+  "bigscience/bloom-1b7": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 3.4
+  },
+  "tiiuae/falcon-40b": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 83.6
+  },
+  "EleutherAI/pythia-160m-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.3662109375
+  },
+  "roneneldan/TinyStories-1M": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 0.0478515625
+  },
+  "bigscience/bloom-7b1": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float16",
+    "file_size": 14.2
+  },
+  "baichuan-inc/Baichuan2-13B-Chat": {
+    "architecture": "BaichuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "bfloat16",
+    "file_size": 27.799999999999997
+  },
+  "KoboldAI/OPT-13B-Erebus": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "LanguageBind/Video-LLaVA-7B": {
+    "architecture": "LlavaLlamaForCausalLM",
+    "model_type": "llava",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "Gustavosta/MagicPrompt-Stable-Diffusion": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.498046875
+  },
+  "TinyLlama/TinyLlama-1.1B-Chat-v0.6": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "q4_0": {
+        "name": "ggml-model-q4_0.gguf",
+        "size": 0.6220703125
+      }
+    }
+  },
+  "Enoch/llama-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.16796875
+  },
+  "pankajmathur/orca_mini_3b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 13.7
+  },
+  "Qwen/Qwen-7B-Chat": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 15.3
+  },
+  "THUDM/cogvlm-chat-hf": {
+    "architecture": "CogVLMForCausalLM",
+    "model_type": "unknown",
+    "dtype": "bfloat16",
+    "file_size": 35.2205078125
+  },
+  "ai-forever/mGPT": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 3.4
+  },
+  "bigscience/bloom-1b1": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 2.1
+  },
+  "microsoft/Orca-2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "TheBloke/Falcon-7B-Instruct-GPTQ": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWebModel",
+    "dtype": "float32",
+    "file_size": 5.9
+  },
+  "01-ai/Yi-34B-Chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 69.19999999999999
+  },
+  "TheBloke/WizardCoder-Python-13B-V1.0-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "nightdessert/WeCheck": {
+    "architecture": "DebertaV2ForSequenceClassification",
+    "model_type": "deberta-v2",
+    "dtype": "float32",
+    "file_size": 1.7
+  },
+  "trl-internal-testing/tiny-random-GPTNeoXForCausalLM": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 0.00166015625
+  },
+  "xlnet-large-cased": {
+    "architecture": "XLNetLMHeadModel",
+    "model_type": "xlnet",
+    "dtype": "float32",
+    "file_size": 1.4
+  },
+  "HuggingFaceH4/tiny-random-LlamaForCausalLM": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 0.00205078125
+  },
+  "beomi/llama-2-ko-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.392578125
+  },
+  "elyza/ELYZA-japanese-Llama-2-7b-fast-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "Qwen/Qwen-1_8B-Chat-Int8": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 2.5
+  },
+  "cyberagent/calm2-7b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "daryl149/llama-2-7b-chat-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "fxmarty/tiny-mpt-random-remote-code": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "float32",
+    "file_size": 0.0263671875
+  },
+  "roneneldan/TinyStories-33M": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 0.2841796875
+  },
+  "DiscoResearch/mixtral-7b-8expert": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 93.60000000000001
+  },
+  "codellama/CodeLlama-13b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "Qwen/Qwen-7B": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 15.3
+  },
+  "KoboldAI/OPT-6B-nerys-v2": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 13.0
+  },
+  "JackFram/llama-160m": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0.634765625
+  },
+  "bigscience/bloomz-7b1": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 14.0
+  },
+  "rinna/youri-7b-chat-gptq": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "fxmarty/tiny-testing-gpt2-remote-code": {
+    "architecture": "GPT2CustomLMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.0017578125
+  },
+  "TheBloke/Llama-2-13B-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TheBloke/Llama-2-70B-Chat-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 35.0
+  },
+  "KoboldAI/GPT-J-6B-Janeway": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 12.0
+  },
+  "adept/fuyu-8b": {
+    "architecture": "FuyuForCausalLM",
+    "model_type": "fuyu",
+    "dtype": "bfloat16",
+    "file_size": 18.8
+  },
+  "EleutherAI/pythia-160m": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.3662109375
+  },
+  "TheBloke/zephyr-7B-beta-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "optimum/gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": null
+  },
+  "AUTOMATIC/promptgen-lexart": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.326171875
+  },
+  "bigscience/bloom-3b": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 6.0
+  },
+  "NousResearch/Nous-Hermes-llama-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "cognitivecomputations/dolphin-2.5-mixtral-8x7b": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mixtral",
+    "dtype": "bfloat16",
+    "file_size": 93.60000000000001
+  },
+  "TheBloke/Nous-Hermes-13B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 7.5
+  },
+  "trl-internal-testing/dummy-GPT2-correct-vocab": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.0078125
+  },
+  "berkeley-nest/Starling-LM-7B-alpha": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "Salesforce/codegen-350M-mono": {
+    "architecture": "CodeGenForCausalLM",
+    "model_type": "codegen",
+    "dtype": "float16",
+    "file_size": 0.7783203125
+  },
+  "TinyLlama/TinyLlama-1.1B-Chat-v0.3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "codellama/CodeLlama-34b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.60000000000001
+  },
+  "microsoft/DialoGPT-small": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.3427734375
+  },
+  "cognitivecomputations/dolphin-2.2.1-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.401
+  },
+  "fxmarty/tiny-testing-falcon-alibi": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "float32",
+    "file_size": 0.008203125
+  },
+  "winninghealth/WiNGPT2-14B-Base": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "bfloat16",
+    "file_size": 28.3
+  },
+  "togethercomputer/LLaMA-2-7B-32K": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "openlm-research/open_llama_3b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.9
+  },
+  "facebook/opt-13b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 25.799999999999997
+  },
+  "bigscience/bloomz-3b": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 6.0
+  },
+  "TheBloke/Llama-2-13B-chat-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.2
+  },
+  "Qwen/Qwen-VL-Chat": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "bfloat16",
+    "file_size": 19.2
+  },
+  "skt/kogpt2-base-v2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.5009765625
+  },
+  "EleutherAI/llemma_7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "baffo32/decapoda-research-llama-7B-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.16796875
+  },
+  "TinyLlama/TinyLlama-1.1B-intermediate-step-955k-token-2T": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "KoboldAI/OPT-6.7B-Erebus": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 13.0
+  },
+  "TheBloke/MythoMax-L2-13B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "TheBloke/orca_mini_v3_7B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "abhinavkulkarni/lmsys-vicuna-33b-v1.3-w4-g128-awq": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 17.5
+  },
+  "EleutherAI/polyglot-ko-1.3b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.73046875
+  },
+  "Qwen/Qwen-14B": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 28.399999999999995
+  },
+  "EleutherAI/pythia-14m": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.0517578125
+  },
+  "igorvln/dare_gpt2_semeval2018_byrelation_finetuning": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.486328125
+  },
+  "togethercomputer/Llama-2-7B-32K-Instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "vilsonrodrigues/falcon-7b-instruct-sharded": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 27.708593750000002
+  },
+  "PAIXAI/Astrid-1B": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.1
+  },
+  "Universal-NER/UniNER-7B-all": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v3": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWebModel",
+    "dtype": "float16",
+    "file_size": 14.5
+  },
+  "openchat/openchat-3.5-1210": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "Phind/Phind-CodeLlama-34B-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.60100000000001
+  },
+  "KoboldAI/LLaMA2-13B-Tiefighter": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.2
+  },
+  "smallcloudai/Refact-1_6B-fim": {
+    "architecture": "GPTRefactForCausalLM",
+    "model_type": "gpt_refact",
+    "dtype": "bfloat16",
+    "file_size": 3.2
+  },
+  "mosaicml/mpt-7b-instruct": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 13.3
+  },
+  "NousResearch/Llama-2-13b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "elyza/ELYZA-japanese-Llama-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "EleutherAI/pythia-410m-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.8896484375
+  },
+  "LeoLM/leo-hessianai-7b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "microsoft/Orca-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "Qwen/Qwen-72B": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 141.00000000000009
+  },
+  "igorvln/dare_gpt2_ddi_byrelation_finetuning": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.486328125
+  },
+  "TheBloke/dolphin-2.2.1-mistral-7B-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "TheBloke/Llama-2-7B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "KoboldAI/OPT-2.7B-Erebus": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 5.3
+  },
+  "lmsys/vicuna-13b-v1.3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "yahma/llama-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Salesforce/codegen-350M-nl": {
+    "architecture": "CodeGenForCausalLM",
+    "model_type": "codegen",
+    "dtype": "float16",
+    "file_size": 0.7783203125
+  },
+  "HuggingFaceH4/mistral-7b-sft-beta": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "LeoLM/leo-hessianai-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "h2oai/h2ogpt-4096-llama2-70b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "TinyLlama/TinyLlama-1.1B-intermediate-step-715k-1.5T": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "trl-internal-testing/tiny-random-GPT2LMHeadModel": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.00166015625
+  },
+  "garage-bAInd/Platypus2-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "EleutherAI/pythia-1b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.1
+  },
+  "PygmalionAI/pygmalion-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "Qwen/Qwen-72B-Chat": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 141.00000000000009
+  },
+  "TheBloke/LLaMA2-13B-Tiefighter-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.2
+  },
+  "dbmdz/german-gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.498046875
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.1-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 4.2
+  },
+  "01-ai/Yi-6B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 12.100000000000001
+  },
+  "stabilityai/stablelm-zephyr-3b": {
+    "architecture": "StableLMEpochForCausalLM",
+    "model_type": "stablelm_epoch",
+    "dtype": "bfloat16",
+    "file_size": 5.6
+  },
+  "cognitivecomputations/dolphin-2.1-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.401
+  },
+  "lightonai/RITA_xl": {
+    "architecture": "RITAModelForCausalLM",
+    "model_type": "rita",
+    "dtype": "float16",
+    "file_size": 2.4
+  },
+  "TheBloke/zephyr-7B-alpha-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "mosaicml/mpt-7b-chat": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 13.3
+  },
+  "PygmalionAI/mythalion-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "core42/jais-13b-chat": {
+    "architecture": "JAISLMHeadModel",
+    "model_type": "jais",
+    "dtype": "float32",
+    "file_size": 53.900000000000006
+  },
+  "Locutusque/Orca-2-13b-SFT-v4": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 25.899999999999995
+  },
+  "stabilityai/StableBeluga-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "trl-internal-testing/tiny-random-GPTNeoXForCausalLM-safetensors": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 0.001
+  },
+  "trl-internal-testing/tiny-random-GPTNeoXForCausalLM-safetensors-sharded": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 0.005
+  },
+  "jphme/phi-1_5_Wizard_Vicuna_uncensored": {
+    "architecture": "MixFormerSequentialForCausalLM",
+    "model_type": "mixformer-sequential",
+    "dtype": "bfloat16",
+    "file_size": 2.8
+  },
+  "Qwen/Qwen-14B-Chat": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 28.399999999999995
+  },
+  "TheBloke/Mythalion-13B-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.2
+  },
+  "KoboldAI/OPT-13B-Nerys-v2": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TinyLlama/TinyLlama-1.1B-intermediate-step-1195k-token-2.5T": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "lmsys/vicuna-13b-v1.5-16k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "trl-internal-testing/tiny-random-OPTForCausalLM": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float32",
+    "file_size": 0.00322265625
+  },
+  "trl-internal-testing/tiny-random-BloomForCausalLM": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 0.001
+  },
+  "trl-internal-testing/tiny-random-GPTNeoForCausalLM": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 0.00146484375
+  },
+  "TheBloke/deepseek-coder-33B-instruct-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 18.0
+  },
+  "trl-internal-testing/tiny-random-CodeGenForCausalLM": {
+    "architecture": "CodeGenForCausalLM",
+    "model_type": "codegen",
+    "dtype": "float32",
+    "file_size": 0.0017578125
+  },
+  "trl-internal-testing/tiny-random-CodeGenForCausalLM-sharded": {
+    "architecture": "CodeGenForCausalLM",
+    "model_type": "codegen",
+    "dtype": "float32",
+    "file_size": 0.003
+  },
+  "trl-internal-testing/tiny-random-GPTJForCausalLM": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float32",
+    "file_size": 0.0017578125
+  },
+  "h2oai/h2ogpt-4096-llama2-70b-chat-4bit": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.6
+  },
+  "EleutherAI/pythia-410m": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.8896484375
+  },
+  "trl-internal-testing/tiny-random-LlamaForCausalLM": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0.00400390625
+  },
+  "huggyllama/llama-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "EleutherAI/pythia-1b-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.1
+  },
+  "deepseek-ai/deepseek-coder-6.7b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "defog/sqlcoder2": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float16",
+    "file_size": 31.199999999999996
+  },
+  "HuggingFaceM4/idefics-9b-instruct": {
+    "architecture": "IdeficsForVisionText2Text",
+    "model_type": "idefics",
+    "dtype": "bfloat16",
+    "file_size": 17.9
+  },
+  "TheBloke/airoboros-l2-13B-gpt4-1.4.1-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "WizardLM/WizardLM-13B-V1.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "lvwerra/gpt2-imdb": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.53615625
+  },
+  "openbmb/cpm-ant-10b": {
+    "architecture": "CPMAntForCausalLM",
+    "model_type": "cpmant",
+    "dtype": "float32",
+    "file_size": 38.099999999999994
+  },
+  "EleutherAI/pythia-2.8b-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 5.7
+  },
+  "facebook/xglm-564M": {
+    "architecture": "XGLMForCausalLM",
+    "model_type": "xglm",
+    "dtype": "float32",
+    "file_size": 1.1
+  },
+  "facebook/opt-30b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 60.102734375
+  },
+  "databricks/dolly-v2-12b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "bfloat16",
+    "file_size": 24.0
+  },
+  "cactusfriend/nightmare-promptgen-XL": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 1.5
+  },
+  "af1tang/personaGPT": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.4
+  },
+  "TheBloke/Llama-2-7B-Chat-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "amazon/MistralLite": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "bigscience/bloom": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 350.20099999999974
+  },
+  "OpenBuddy/openbuddy-zephyr-7b-v14.1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.6
+  },
+  "transfo-xl-wt103": {
+    "architecture": "TransfoXLLMHeadModel",
+    "model_type": "transfo-xl",
+    "dtype": "float32",
+    "file_size": 1.94873046875
+  },
+  "mosaicml/mpt-30b": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 60.102734375
+  },
+  "TinyPixel/Llama-2-7B-bf16-sharded": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.1630859375
+  },
+  "skt/ko-gpt-trinity-1.2B-v0.5": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": null,
+    "file_size": 4.7
+  },
+  "h2oai/h2ogpt-oig-oasst1-512-6_9b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "llm-jp/llm-jp-1.3b-v1.0": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 2.6
+  },
+  "mesolitica/llama-600m-hf-32768-fpf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 1.3
+  },
+  "bigcode/gpt_bigcode-santacoder": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float32",
+    "file_size": 2.2
+  },
+  "baichuan-inc/Baichuan2-7B-Chat": {
+    "architecture": "BaichuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "upstage/llama-30b-instruct-2048": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 65.2
+  },
+  "KoboldAI/GPT-NeoX-20B-Erebus": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 41.29492187499999
+  },
+  "BAAI/AquilaChat2-34B-16K": {
+    "architecture": "AquilaForCausalLM",
+    "model_type": "aquila",
+    "dtype": "bfloat16",
+    "file_size": 67.2
+  },
+  "mosaicml/mpt-30b-instruct": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 60.102734375
+  },
+  "EleutherAI/pythia-2.8b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 5.7
+  },
+  "TheBloke/Mistral-7B-OpenOrca-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 4.2
+  },
+  "facebook/opt-66b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 132.60000000000002
+  },
+  "csdc-atl/baichuan-7B-chat": {
+    "architecture": "BaiChuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "float16",
+    "file_size": 14.0
+  },
+  "stabilityai/japanese-stablelm-instruct-gamma-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.401
+  },
+  "PygmalionAI/pygmalion-2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "upstage/SOLAR-10.7B-Instruct-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 21.400000000000002
+  },
+  "EleutherAI/pythia-1.4b-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.9
+  },
+  "ai-forever/rugpt3small_based_on_gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.5380859375
+  },
+  "baichuan-inc/Baichuan-13B-Chat": {
+    "architecture": "BaichuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "bfloat16",
+    "file_size": 26.5
+  },
+  "TheBloke/zephyr-7B-beta-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "deepseek-ai/deepseek-llm-67b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 135.00000000000003
+  },
+  "sshleifer/tiny-ctrl": {
+    "architecture": "CTRLLMHeadModel",
+    "model_type": "ctrl",
+    "dtype": "float32",
+    "file_size": 0.0166015625
+  },
+  "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 23.799999999999997
+  },
+  "Salesforce/ctrl": {
+    "model_type": "ctrl",
+    "dtype": "float32",
+    "file_size": 6.6
+  },
+  "The-Face-Of-Goonery/Huginn-13b-v1.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "WizardLM/WizardCoder-Python-34B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 67.60000000000001
+  },
+  "lmsys/vicuna-33b-v1.3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 65.2
+  },
+  "TheBloke/Synthia-70B-v1.2b-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.6
+  },
+  "deepseek-ai/deepseek-coder-33b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 66.7
+  },
+  "PygmalionAI/pygmalion-6b": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 15.9
+  },
+  "elinas/chronos-13b-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "mesolitica/llama-2b-hf-32768-fpf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.8
+  },
+  "akreal/tiny-random-BloomForCausalLM": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 0.001
+  },
+  "akreal/tiny-random-LlamaForCausalLM": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 0.00205078125
+  },
+  "Qwen/Qwen-1_8B": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 3.6
+  },
+  "Locutusque/Orca-2-13b-SFT_v5": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 25.899999999999995
+  },
+  "FredZhang7/distilgpt2-stable-diffusion-v2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.326171875
+  },
+  "HuggingFaceM4/idefics-9b": {
+    "architecture": "IdeficsForVisionText2Text",
+    "model_type": "idefics",
+    "dtype": "bfloat16",
+    "file_size": 35.68847656249999
+  },
+  "codellama/CodeLlama-7b-Python-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "openlm-research/open_llama_7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "pankajmathur/orca_mini_v3_13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "aloobun/open-llama-3b-v2-elmv3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.9
+  },
+  "TheBloke/LLaMA2-13B-Tiefighter-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "anas-awadalla/mpt-1b-redpajama-200b": {
+    "architecture": "MosaicGPT",
+    "model_type": "mosaic_gpt",
+    "dtype": "float32",
+    "file_size": 5.2
+  },
+  "TheBloke/CodeLlama-7B-Instruct-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "TheBloke/Upstage-Llama-2-70B-instruct-v2-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.6
+  },
+  "Qwen/Qwen-14B-Chat-Int4": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 9.6
+  },
+  "cerebras/Cerebras-GPT-111M": {
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.474609375
+  },
+  "ai-forever/rugpt3large_based_on_gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 3.1
+  },
+  "TheBloke/neural-chat-7B-v3-2-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "augtoma/qCammel-70-x": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "EleutherAI/pythia-12b-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 23.800000000000004
+  },
+  "OpenAssistant/falcon-7b-sft-top1-696": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWebModel",
+    "dtype": "bfloat16",
+    "file_size": 14.400390625
+  },
+  "Undi95/Emerhyst-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.5
+  },
+  "h2oai/h2ogpt-gm-oasst1-en-2048-falcon-7b-v2": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWebModel",
+    "dtype": "float16",
+    "file_size": 14.5
+  },
+  "OpenBuddy/openbuddy-codellama2-34b-v11.1-bf16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.7
+  },
+  "Open-Orca/OpenOrca-Platypus2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "EleutherAI/pythia-6.9b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "mosaicml/mpt-7b-storywriter": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 13.3
+  },
+  "01-ai/Yi-34B-200K": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 68.6
+  },
+  "openlm-research/open_llama_7b_v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "beomi/kykim-gpt3-kor-small_based_on_gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.513671875
+  },
+  "WizardLM/WizardLM-70B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 275.3000000000001
+  },
+  "NousResearch/Nous-Capybara-7B-V1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "coffeeee/nsfw-story-generator2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.4009999999999998
+  },
+  "TheBloke/orca_mini_v3_13B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "euclaise/Ferret_7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "microsoft/git-base-coco": {
+    "architecture": "GitForCausalLM",
+    "model_type": "git",
+    "dtype": "float32",
+    "file_size": 0.6904296875
+  },
+  "deepseek-ai/deepseek-coder-1.3b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 2.7
+  },
+  "lmsys/vicuna-7b-v1.5-16k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "h2oai/h2ogpt-32k-codellama-34b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.60000000000001
+  },
+  "google/reformer-crime-and-punishment": {
+    "architecture": "ReformerModelWithLMHead",
+    "model_type": "reformer",
+    "dtype": "float32",
+    "file_size": 0.0107421875
+  },
+  "mosaicml/mpt-30b-chat": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 60.102734375
+  },
+  "EleutherAI/pythia-70m-v0": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.162109375
+  },
+  "4bit/llava-v1.5-13b-3GB": {
+    "architecture": "LlavaLlamaForCausalLM",
+    "model_type": "llava",
+    "dtype": "float16",
+    "file_size": 26.2
+  },
+  "Pi3141/DialoGPT-medium-elon-2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.4
+  },
+  "Open-Orca/Mistral-7B-SlimOrca": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "maywell/Synatra-V0.1-7B-Instruct": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "EleutherAI/pythia-1.4b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.9
+  },
+  "wangrongsheng/MiniGPT-4-LLaMA-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "h2oai/h2ogpt-gm-oasst1-en-2048-falcon-40b-v2": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWeb",
+    "dtype": "float16",
+    "file_size": 83.6
+  },
+  "facebook/opt-iml-max-1.3b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 2.6
+  },
+  "EleutherAI/pythia-6.9b-deduped": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "yujiepan/llama-2-tiny-3layers-random": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 0.0009765625
+  },
+  "facebook/incoder-1B": {
+    "architecture": "XGLMForCausalLM",
+    "model_type": "xglm",
+    "dtype": "float16",
+    "file_size": 2.6
+  },
+  "replit/replit-code-v1_5-3b": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 6.6
+  },
+  "anas-awadalla/mpt-7b": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "float32",
+    "file_size": 26.599999999999998
+  },
+  "nferruz/ProtGPT2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 3.1
+  },
+  "uer/gpt2-chinese-cluecorpussmall": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.4111328125
+  },
+  "TheBloke/Mistral-7B-Claude-Chat-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "h2oai/h2ogpt-oasst1-512-12b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 24.0
+  },
+  "bigcode/santacoder": {
+    "architecture": "GPT2LMHeadCustomModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 4.6
+  },
+  "01-ai/Yi-34B-Chat-4bits": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 19.3
+  },
+  "EleutherAI/pythia-12b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 23.800000000000004
+  },
+  "rinna/japanese-gpt-neox-3.6b-instruction-ppo": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 7.4
+  },
+  "OpenAssistant/falcon-7b-sft-mix-2000": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWebModel",
+    "dtype": "bfloat16",
+    "file_size": 14.400390625
+  },
+  "beomi/KoAlpaca-Polyglot-5.8B": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 11.6064453125
+  },
+  "lmsys/vicuna-13b-v1.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.3
+  },
+  "WizardLM/WizardCoder-15B-V1.0": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float16",
+    "file_size": 31.0
+  },
+  "yujiepan/llama-2-tiny-random": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 0.00205078125
+  },
+  "Nexusflow/NexusRaven-V2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "AI-Sweden-Models/gpt-sw3-126m": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.580078125
+  },
+  "maywell/Synatra-7B-v0.3-dpo": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "Writer/palmyra-small": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.5380859375
+  },
+  "Phind/Phind-CodeLlama-34B-Python-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.60100000000001
+  },
+  "kaist-ai/prometheus-13b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "ybelkada/Mixtral-8x7B-Instruct-v0.1-AWQ": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mixtral",
+    "dtype": "float16",
+    "file_size": 24.7
+  },
+  "togethercomputer/RedPajama-INCITE-Chat-3B-v1": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 5.7
+  },
+  "EleutherAI/polyglot-ko-12.8b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 25.576171875
+  },
+  "HuggingFaceH4/starchat-beta": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "bfloat16",
+    "file_size": 31.199999999999996
+  },
+  "pankajmathur/Lima_Unchained_70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "h2oai/h2ogpt-16k-aquilachat2-34b": {
+    "architecture": "AquilaForCausalLM",
+    "model_type": "aquila",
+    "dtype": "bfloat16",
+    "file_size": 67.20100000000001
+  },
+  "chavinlo/alpaca-native": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.001
+  },
+  "BAAI/AquilaChat2-34B": {
+    "architecture": "AquilaForCausalLM",
+    "model_type": "aquila",
+    "dtype": "bfloat16",
+    "file_size": 67.2
+  },
+  "TheBloke/orca_mini_v2_7B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.5
+  },
+  "line-corporation/japanese-large-lm-3.6b-instruction-sft": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 7.2
+  },
+  "baichuan-inc/Baichuan-7B": {
+    "architecture": "BaiChuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "float32",
+    "file_size": 14.0
+  },
+  "mlabonne/NeuralHermes-2.5-Mistral-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "mncai/Mistral-7B-guanaco1k-ep2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "databricks/dolly-v2-7b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "AI-Sweden-Models/gpt-sw3-1.3b": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 5.5
+  },
+  "stabilityai/japanese-stablelm-base-alpha-7b": {
+    "architecture": "JapaneseStableLMAlphaForCausalLM",
+    "model_type": "unknown",
+    "dtype": "float32",
+    "file_size": 49.7
+  },
+  "togethercomputer/RedPajama-INCITE-Instruct-3B-v1": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 5.7
+  },
+  "42dot/42dot_LLM-SFT-1.3B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 5.8
+  },
+  "alignment-handbook/zephyr-7b-sft-full": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "fblgit/una-cybertron-7b-v2-bf16": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "TheBloke/Xwin-LM-13B-V0.1-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 7.3
+  },
+  "KoboldAI/fairseq-dense-13B-Janeway": {
+    "architecture": "XGLMForCausalLM",
+    "model_type": "xglm",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "KoboldAI/LLAMA2-13B-Holodeck-1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.899999999999995
+  },
+  "defog/sqlcoder-34b-alpha": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 67.60000000000001
+  },
+  "RUCAIBox/mvp": {
+    "model_type": "mvp",
+    "dtype": "float32",
+    "file_size": 1.6
+  },
+  "maywell/Synatra-7B-v0.3-RP": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "RWKV/rwkv-4-169m-pile": {
+    "architecture": "RwkvForCausalLM",
+    "model_type": "rwkv",
+    "dtype": "float32",
+    "file_size": 0.6611328125
+  },
+  "core42/jais-30b-chat-v1": {
+    "architecture": "JAISLMHeadModel",
+    "model_type": "jais",
+    "dtype": "float32",
+    "file_size": 122.50000000000006
+  },
+  "cyberagent/open-calm-7b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.9
+  },
+  "Qwen/Qwen-7B-Chat-Int4": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 5.8
+  },
+  "TheBloke/Llama-2-7B-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "stabilityai/StableBeluga2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 275.3000000000001
+  },
+  "WizardLM/WizardMath-70B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 275.3000000000001
+  },
+  "pfnet/plamo-13b": {
+    "architecture": "PlamoForCausalLM",
+    "model_type": "plamo",
+    "dtype": "bfloat16",
+    "file_size": 26.2
+  },
+  "Intel/neural-chat-7b-v3-3": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "HuggingFaceM4/idefics-80b-instruct": {
+    "architecture": "IdeficsForVisionText2Text",
+    "model_type": "idefics",
+    "dtype": "bfloat16",
+    "file_size": 159.7
+  },
+  "Riiid/sheep-duck-llama-2-70b-v1.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "NousResearch/Llama-2-13b-chat-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "abeja/gpt-neox-japanese-2.7b": {
+    "architecture": "GPTNeoXJapaneseForCausalLM",
+    "model_type": "gpt_neox_japanese",
+    "dtype": "float32",
+    "file_size": 5.4
+  },
+  "mosaicml/mpt-7b-8k": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 13.3
+  },
+  "cerebras/btlm-3b-8k-base": {
+    "architecture": "BTLMLMHeadModel",
+    "model_type": "btlm",
+    "dtype": "bfloat16",
+    "file_size": 5.3
+  },
+  "rinna/japanese-gpt2-small": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.443359375
+  },
+  "OpenAssistant/oasst-sft-1-pythia-12b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 23.800000000000004
+  },
+  "bigscience/bloomz-1b1": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 2.1
+  },
+  "jb723/LLaMA2-en-ko-7B-model": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.4
+  },
+  "bigcode/tiny_starcoder_py": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float32",
+    "file_size": 0.6416015625
+  },
+  "Yukang/LongAlpaca-70B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "llm-jp/llm-jp-13b-instruct-full-jaster-v1.0": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 25.799999999999997
+  },
+  "TinyLlama/TinyLlama-1.1B-intermediate-step-480k-1T": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "BAAI/AquilaChat2-7B": {
+    "architecture": "AquilaForCausalLM",
+    "model_type": "aquila",
+    "dtype": "float16",
+    "file_size": 29.2
+  },
+  "argilla/notus-7b-v1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "Xwin-LM/Xwin-LM-7B-V0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "huggyllama/llama-30b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 65.2
+  },
+  "microsoft/git-base-vatex": {
+    "architecture": "GitForCausalLM",
+    "model_type": "git",
+    "dtype": "float32",
+    "file_size": 0.689453125
+  },
+  "bigscience/bloomz-7b1-mt": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 14.0
+  },
+  "KoboldAI/LLaMA2-13B-Holomax": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "WizardLM/WizardCoder-1B-V1.0": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float16",
+    "file_size": 2.3
+  },
+  "musabgultekin/functionary-7b-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.501
+  },
+  "Salesforce/codegen-350M-multi": {
+    "architecture": "CodeGenForCausalLM",
+    "model_type": "codegen",
+    "dtype": "float16",
+    "file_size": 0.7783203125
+  },
+  "h2oai/h2ogpt-oig-oasst1-256-6_9b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.5
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.2-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 4.2
+  },
+  "demo-leaderboard/gpt2-demo": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.53515625
+  },
+  "aiplanet/effi-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.025390625
+  },
+  "rinna/youri-7b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "susnato/phi-1_5_dev": {
+    "architecture": "PhiForCausalLM",
+    "model_type": "phi",
+    "dtype": "float32",
+    "file_size": 2.8
+  },
+  "NousResearch/Yarn-Mistral-7b-64k": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "meta-math/MetaMath-Mistral-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "deepseek-ai/deepseek-llm-7b-base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.9
+  },
+  "jondurbin/airoboros-33b-gpt4-m2.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 65.2
+  },
+  "haoranxu/ALMA-13B-Pretrain": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "Intel/neural-chat-7b-v3-2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "42MARU/GenAI-llama-2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "WizardLM/WizardCoder-Python-7B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "microsoft/CodeGPT-small-java": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.50390625
+  },
+  "TheBloke/Mixtral-8x7B-v0.1-GPTQ": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mixtral",
+    "dtype": "bfloat16",
+    "file_size": 24.0
+  },
+  "euclaise/falcon_1b_stage2": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 2.601
+  },
+  "TheBloke/Marcoroni-70B-v1-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.6
+  },
+  "Intel/neural-chat-7b-v3": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "hyunseoki/ko-en-llama2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "junelee/wizard-vicuna-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.10099999999999
+  },
+  "stabilityai/stablelm-tuned-alpha-3b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 14.7
+  },
+  "PygmalionAI/pygmalion-350m": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 1.3
+  },
+  "FlagAlpha/Llama2-Chinese-7b-Chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "ybelkada/falcon-7b-sharded-bf16": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 14.3994140625
+  },
+  "EleutherAI/polyglot-ko-5.8b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 11.6064453125
+  },
+  "Severian/ANIMA-Phi-Neptune-Mistral-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "beomi/Yi-Ko-6B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 12.327929687500001
+  },
+  "liuhaotian/llava-llama-2-13b-chat-lightning-preview": {
+    "architecture": "LlavaLlamaForCausalLM",
+    "model_type": "llava",
+    "dtype": "float16",
+    "file_size": 26.009765625
+  },
+  "pankajmathur/orca_mini_v3_70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "TheBloke/Llama-2-70B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 35.0
+  },
+  "pankajmathur/model_007": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "abhinand/tamil-llama-7b-instruct-v0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "TheBloke/Yarn-Llama-2-70B-32k-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 35.0
+  },
+  "TheBloke/Wizard-Vicuna-7B-Uncensored-HF": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "GeneZC/MiniChat-1.5-3B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.0
+  },
+  "rinna/japanese-gpt2-medium": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.4
+  },
+  "FINDA-FIT/llama-r": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.8
+  },
+  "Xenova/llama2.c-stories15M": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0.0595703125
+  },
+  "HuggingFaceM4/tiny-random-MistralForCausalLM": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0.00400390625
+  },
+  "Weyaxi/OpenHermes-2.5-neural-chat-7b-v3-1-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.8
+  },
+  "facebook/galactica-30b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 60.8
+  },
+  "KoboldAI/OPT-13B-Nerybus-Mix": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 26.399999999999995
+  },
+  "mywateriswet/ShuanBot": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.4
+  },
+  "NeverSleep/Echidna-13b-v0.3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.999999999999996
+  },
+  "Austism/chronos-hermes-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "hfl/chinese-alpaca-2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.299999999999997
+  },
+  "deepseek-ai/deepseek-llm-67b-base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 135.00000000000003
+  },
+  "hyunseoki/ko-ref-llama2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "EleutherAI/pythia-31m": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.083984375
+  },
+  "Xwin-LM/Xwin-LM-70B-V0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 275.3000000000001
+  },
+  "llmware/bling-1b-0.1": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 4.1
+  },
+  "stanford-crfm/BioMedLM": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 11.0
+  },
+  "PygmalionAI/pygmalion-2.7b": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float16",
+    "file_size": 5.4
+  },
+  "SUSTech/SUS-Chat-34B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 68.6
+  },
+  "princeton-nlp/Sheared-LLaMA-2.7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 10.7369140625
+  },
+  "EleutherAI/pythia-1.4b-v0": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.9
+  },
+  "h2oai/h2ogpt-gm-oasst1-en-1024-20b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 41.2
+  },
+  "deepseek-ai/deepseek-coder-6.7b-base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "hyunseoki/ko-ref-llama2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "AIDC-ai-business/Marcoroni-7B-v3": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "deepseek-ai/deepseek-coder-1.3b-base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 2.7
+  },
+  "facebook/xglm-7.5B": {
+    "architecture": "XGLMForCausalLM",
+    "model_type": "xglm",
+    "dtype": "float32",
+    "file_size": 15.0
+  },
+  "uukuguy/speechless-code-mistral-7b-v1.0": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.2-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "rinna/youri-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "NumbersStation/nsql-350M": {
+    "architecture": "CodeGenForCausalLM",
+    "model_type": "codegen",
+    "dtype": "float32",
+    "file_size": 1.5
+  },
+  "codellama/CodeLlama-34b-Python-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.60000000000001
+  },
+  "llm-jp/llm-jp-13b-instruct-full-jaster-dolly-oasst-v1.0": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 25.799999999999997
+  },
+  "cahya/gpt2-small-indonesian-522M": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.498046875
+  },
+  "KoboldAI/OPT-6.7B-Nerybus-Mix": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "upstage/SOLAR-10.7B-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 21.400000000000002
+  },
+  "jb723/cross_lingual_epoch2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.4
+  },
+  "cognitivecomputations/WizardLM-Uncensored-Falcon-7b": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWebModel",
+    "dtype": "float32",
+    "file_size": 28.901
+  },
+  "TheBloke/falcon-40b-instruct-GPTQ": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWeb",
+    "dtype": "bfloat16",
+    "file_size": 22.0
+  },
+  "maywell/koOpenChat-sft": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "SakuraLLM/Sakura-13B-LNovel-v0_8-4bit": {
+    "architecture": "BaichuanForCausalLM",
+    "model_type": "baichuan",
+    "dtype": "float16",
+    "file_size": 9.1
+  },
+  "yeen214/llama2_7b_small_tuning_v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 26.5
+  },
+  "yeen214/test_llama2_ko_7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.6
+  },
+  "llm-agents/tora-7b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "line-corporation/japanese-large-lm-3.6b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 7.2
+  },
+  "yeen214/test_llama2_7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 27.0
+  },
+  "KT-AI/midm-bitext-S-7B-inst-v1": {
+    "architecture": "MidmLMHeadModel",
+    "model_type": "midm-bitext-S",
+    "dtype": "bfloat16",
+    "file_size": 16.2
+  },
+  "rakeshkiriyath/gpt2Medium_text_to_sql": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.4
+  },
+  "llm-jp/llm-jp-13b-v1.0": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 25.799999999999997
+  },
+  "ceadar-ie/FinanceConnect-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.999999999999996
+  },
+  "TheBloke/Llama-2-13B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "Deci/DeciLM-7B-instruct": {
+    "architecture": "DeciLMForCausalLM",
+    "model_type": "deci",
+    "dtype": "bfloat16",
+    "file_size": 14.100000000000001
+  },
+  "postbot/gpt2-medium-emailgen": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.4
+  },
+  "internlm/internlm-chat-20b": {
+    "architecture": "InternLMForCausalLM",
+    "model_type": "internlm",
+    "dtype": "float16",
+    "file_size": 40.300000000000004
+  },
+  "ericzzz/falcon-rw-1b-instruct-openorca": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 2.6
+  },
+  "Locutusque/TinyMistral-248M": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 0.96875
+  },
+  "kfkas/Llama-2-ko-7b-Chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "MBZUAI/LaMini-GPT-124M": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.498046875
+  },
+  "TheBloke/deepseek-coder-33B-instruct-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 17.0
+  },
+  "cerebras/Cerebras-GPT-256M": {
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.1
+  },
+  "cerebras/Cerebras-GPT-1.3B": {
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 5.4
+  },
+  "OpenBuddy/openbuddy-llama2-13b-v8.1-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.2
+  },
+  "TinyLlama/TinyLlama-1.1B-step-50K-105b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "beomi/KoAlpaca-Polyglot-12.8B": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 25.57421875
+  },
+  "ajibawa-2023/Python-Code-33B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 65.30000000000001
+  },
+  "bigscience/bigscience-small-testing": {
+    "architecture": "BloomModel",
+    "model_type": "bloom",
+    "dtype": "bfloat16",
+    "file_size": 0.03125
+  },
+  "satvikag/chatbot": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.498046875
+  },
+  "pankajmathur/orca_mini_v3_7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "OpenBuddy/openbuddy-llama2-13b-v11.1-bf16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.2
+  },
+  "TheBloke/Llama-2-70B-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "llava-hf/llava-1.5-13b-hf": {
+    "architecture": "LlavaForCausalLM",
+    "model_type": "llava",
+    "dtype": "float16",
+    "file_size": 26.700000000000003
+  },
+  "GeneZC/MiniChat-3B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.0
+  },
+  "Lin-Chen/ShareGPT4V-7B": {
+    "architecture": "Share4VLlamaForCausalLM",
+    "model_type": "share4v",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "starmpcc/Asclepius-Llama2-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.001
+  },
+  "BELLE-2/BELLE-Llama2-13B-chat-0.4M": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.999999999999996
+  },
+  "codellama/CodeLlama-13b-Python-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "LeoLM/leo-mistral-hessianai-7b-chat": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "mosaicml/mpt-7b-8k-instruct": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 13.3
+  },
+  "liuhaotian/LLaVA-Lightning-MPT-7B-preview": {
+    "architecture": "LlavaMPTForCausalLM",
+    "model_type": "llava_mpt",
+    "dtype": "float16",
+    "file_size": 13.3
+  },
+  "LeoLM/leo-hessianai-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TurkuNLP/gpt3-finnish-large": {
+    "architecture": "BloomModel",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 3.5
+  },
+  "Xwin-LM/Xwin-LM-13B-V0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "codeparrot/codeparrot": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 6.2
+  },
+  "OpenAssistant/codellama-13b-oasst-sft-v10": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 25.899999999999995
+  },
+  "OpenPipe/mistral-ft-optimized-1218": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "adept/persimmon-8b-chat": {
+    "architecture": "PersimmonForCausalLM",
+    "model_type": "persimmon",
+    "dtype": "bfloat16",
+    "file_size": 18.8
+  },
+  "lgaalves/gpt2-dolly": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 0.2431640625
+  },
+  "TheBloke/Orca-2-13B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "togethercomputer/RedPajama-INCITE-7B-Base": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "lyogavin/Anima-7B-100K": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "togethercomputer/RedPajama-INCITE-7B-Instruct": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "TheBloke/Mistral-7B-Instruct-v0.1-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "mistral-7b-instruct-v0.1.Q2_K.gguf",
+        "size": 3.1
+      },
+      "Q3_K_L": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_L.gguf",
+        "size": 3.8
+      },
+      "Q3_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_M.gguf",
+        "size": 3.5
+      },
+      "Q3_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q3_K_S.gguf",
+        "size": 3.2
+      },
+      "Q4_0": {
+        "name": "mistral-7b-instruct-v0.1.Q4_0.gguf",
+        "size": 4.1
+      },
+      "Q4_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+        "size": 4.4
+      },
+      "Q4_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+        "size": 4.1
+      },
+      "Q5_0": {
+        "name": "mistral-7b-instruct-v0.1.Q5_0.gguf",
+        "size": 5.0
+      },
+      "Q5_K_M": {
+        "name": "mistral-7b-instruct-v0.1.Q5_K_M.gguf",
+        "size": 5.1
+      },
+      "Q5_K_S": {
+        "name": "mistral-7b-instruct-v0.1.Q5_K_S.gguf",
+        "size": 5.0
+      },
+      "Q6_K": {
+        "name": "mistral-7b-instruct-v0.1.Q6_K.gguf",
+        "size": 5.9
+      },
+      "Q8_0": {
+        "name": "mistral-7b-instruct-v0.1.Q8_0.gguf",
+        "size": 7.7
+      }
+    }
+  },
+  "01-ai/Yi-6B-Chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 12.100000000000001
+  },
+  "migtissera/Tess-XS-v1-3-yarn-128K": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "SkunkworksAI/BakLLaVA-1": {
+    "architecture": "LlavaMistralForCausalLM",
+    "model_type": "llava_mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.100000000000001
+  },
+  "togethercomputer/RedPajama-INCITE-7B-Chat": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "StudentLLM/Alpagasus-2-13b-QLoRA-merged": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "Deci/DeciLM-7B": {
+    "architecture": "DeciLMForCausalLM",
+    "model_type": "deci",
+    "dtype": "bfloat16",
+    "file_size": 14.100000000000001
+  },
+  "Sao10K/Stheno-v2-Delta-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.099999999999998
+  },
+  "h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-3b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.9
+  },
+  "lmsys/vicuna-7b-v1.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Undi95/MLewd-v2.4-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "Weyaxi/EnsembleV5-Nova-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.2
+  },
+  "SciPhi/SciPhi-Self-RAG-Mistral-7B-32k": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "TheBloke/WizardLM-70B-V1.0-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.6
+  },
+  "aubmindlab/aragpt2-base": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.5400390625
+  },
+  "bhenrym14/platypus-yi-34b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 69.19999999999999
+  },
+  "4bit/llava-v1.5-7b-5GB": {
+    "architecture": "LlavaLlamaForCausalLM",
+    "model_type": "llava",
+    "dtype": "float16",
+    "file_size": 14.0
+  },
+  "01-ai/Yi-6B-200K": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 12.100000000000001
+  },
+  "wtang06/mpt-125m-c4": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 0.2451171875
+  },
+  "uukuguy/speechless-llama2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "Linly-AI/Chinese-LLaMA-2-7B-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "Doctor-Shotgun/mythospice-limarp-70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "lvkaokao/mistral-7b-finetuned-orca-dpo-v2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "zarakiquemparte/zarafusionex-1.2-l2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "microsoft/CodeGPT-small-py": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.498046875
+  },
+  "TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "TheBloke/Llama-2-13B-Chat-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TheBloke/Llama-2-7B-Chat-GGML": {
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 60.5
+  },
+  "togethercomputer/RedPajama-INCITE-Base-3B-v1": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 5.7
+  },
+  "openchat/openchat_v3.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "daekeun-ml/Llama-2-ko-DPO-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.299999999999994
+  },
+  "rinna/japanese-gpt-neox-3.6b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 7.4
+  },
+  "openchat/openchat_v3.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "lgaalves/gpt2_camel_physics-platypus": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 0.2431640625
+  },
+  "Qwen/Qwen-VL": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "bfloat16",
+    "file_size": 19.2
+  },
+  "Riiid/sheep-duck-llama-2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "SciPhi/SciPhi-Mistral-7B-32k": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "Abe13/juniper-certificate-Llama-2-7b-chat-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "medalpaca/medalpaca-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.001
+  },
+  "LeoLM/leo-hessianai-13b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.099999999999998
+  },
+  "garage-bAInd/Platypus2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "OpenBuddy/openbuddy-mistral-7b-v13.1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.6
+  },
+  "garage-bAInd/Platypus-30B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 65.216015625
+  },
+  "Azure99/blossom-v3-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "migtissera/SynthIA-7B-v1.3": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "CobraMamba/mamba-gpt-7b-v2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "ethzanalytics/pythia-31m": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 0.119140625
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Mohammed-Altaf/Medical-ChatBot": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 10.0
+  },
+  "Qwen/Qwen-VL-Chat-Int4": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float16",
+    "file_size": 9.8
+  },
+  "hfl/chinese-alpaca-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "OpenBuddy/openbuddy-mistral-7b-v13": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.6
+  },
+  "TheBloke/Llama-2-70B-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.6
+  },
+  "kykim/gpt3-kor-small_based_on_gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.513671875
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "bofenghuang/vigostral-7b-chat": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "chargoddard/llama2-22b-blocktriangular": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 43.7
+  },
+  "922-CA/monika-ddlc-7b-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "bhenrym14/airoboros-33b-gpt4-1.4.1-lxctx-PI-16384-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 65.2
+  },
+  "CobraMamba/mamba-gpt-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "Brillibits/Instruct_Llama70B_Dolly15k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 138.11171875
+  },
+  "AIDC-ai-business/Marcoroni-70B-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "alexsherstinsky/Mistral-7B-v0.1-sharded": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.396875
+  },
+  "chargoddard/platypus-2-22b-relora": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 43.7
+  },
+  "klyang/MentaLLaMA-chat-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.001
+  },
+  "Delcos/Mistral-Pygmalion-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.3
+  },
+  "uukuguy/speechless-codellama-orca-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "jondurbin/airoboros-33b-gpt4-2.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 65.2
+  },
+  "AlekseyKorshuk/vic15-exp-syn-fight-cp3838": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-OpenOrca_20w": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "klosax/open_llama_3b_350bt_preview": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.9
+  },
+  "ICBU-NPU/FashionGPT-70B-V1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "ICBU-NPU/FashionGPT-70B-V1.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "garage-bAInd/Camel-Platypus2-70B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "Azure99/blossom-v3_1-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "uukuguy/speechless-codellama-platypus-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TheBloke/em_german_leo_mistral-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "cerebras/Cerebras-GPT-590M": {
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 2.4
+  },
+  "OpenBuddy/openbuddy-mistral-7b-v13-base": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.6
+  },
+  "L-R/LLmRa-2.7B": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float32",
+    "file_size": 10.6142578125
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_compare15k_4.5w-r16-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "wenge-research/yayi-7b-llama2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "adonlee/LLaMA_2_13B_SFT_v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CobraMamba/mamba-gpt-7b-v1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "marcsun13/bloom-1b7_with_lm_head": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "float16",
+    "file_size": 3.4
+  },
+  "AlekseyKorshuk/vicuna-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.1630859375
+  },
+  "Salesforce/xgen-7b-8k-base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.599999999999998
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "elyza/ELYZA-japanese-Llama-2-7b-fast": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_addto15k_4.5w-r16-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Sao10K/Euryale-1.3-L2-70B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "Yukang/Llama-2-7b-longlora-100k-ft": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 27.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down-test1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TigerResearch/tigerbot-13b-base-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.7
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "linhvu/decapoda-research-llama-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.16796875
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "huggyllama/llama-65b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 130.40000000000003
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "wenge-research/yayi-13b-llama2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "shaohang/Sparse0.5_OPT-1.3": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 2.6
+  },
+  "aiplanet/panda-coder-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.901000000000001
+  },
+  "Danielbrdz/Barcenas-3b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.0
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o_gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "NewstaR/Koss-7B-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "JosephusCheung/Qwen-VL-LLaMAfied-7B-Chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 19.4
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Dampish/StellarX-4B-V0": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 8.100999999999999
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "CHIH-HUNG/llama-2-13b-Open-Platypus_2.5w": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "LeoLM/leo-hessianai-7b-chat-bilingual": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "IkariDev/Athena-v3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Undi95/MLewd-L2-Chat-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "internlm/internlm-20b": {
+    "architecture": "InternLMForCausalLM",
+    "model_type": "internlm",
+    "dtype": "bfloat16",
+    "file_size": 40.300000000000004
+  },
+  "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-gate_up_down": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "KnutJaegersberg/RWKV-pileplus-1B5-evol_instruct_v2": {
+    "architecture": "RwkvForCausalLM",
+    "model_type": "rwkv",
+    "dtype": "float32",
+    "file_size": 6.1
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-200step-merged": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "TheBloke/Xwin-LM-13B-v0.2-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "Dampish/StellarX-4B-V0.2": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 15.901
+  },
+  "LTC-AI-Labs/L2-7b-Base-WVG-Uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-200step-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "Doctor-Shotgun/mythospice-70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "FelixChao/CodeLlama13B-Finetune-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "Kiddyz/testllm-c2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-100step-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "Envoid/Libra-19B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 38.7
+  },
+  "HWERI/pythia-70m-deduped-cleansharegpt-en": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 0.275390625
+  },
+  "JosephusCheung/Pwen-VL-Chat-20_30": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 19.4
+  },
+  "Sao10K/Euryale-L2-70B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 134.4
+  },
+  "Expert68/llama2_13b_instructed_version2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "adept/persimmon-8b-base": {
+    "architecture": "PersimmonForCausalLM",
+    "model_type": "persimmon",
+    "dtype": "bfloat16",
+    "file_size": 18.8
+  },
+  "ICBU-NPU/FashionGPT-70B-V1.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "Lazycuber/L2-7b-Base-Guanaco-Uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "teknium/CollectiveCognition-v1.1-Mistral-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "LTC-AI-Labs/L2-7b-Beluga-WVG-Test": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "42dot/42dot_LLM-PLM-1.3B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 5.8
+  },
+  "meta-math/MetaMath-13B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "Juniplayground/Mist_LLaMA-2-7B-1024_V3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "Yukang/Llama-2-7b-longlora-16k-ft": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "LTC-AI-Labs/L2-7b-Base-WVG-Test": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "LTC-AI-Labs/L2-7B-Guanaco-Vicuna": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "HiTZ/GoLLIE-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 40.5
+  },
+  "OpenBuddy/openbuddy-falcon-180b-v13-preview0": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 358.09999999999985
+  },
+  "llm-agents/tora-code-13b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "Secbone/llama-33B-instructed": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "00": {
+        "name": "ggml-model-q8_0-parts-00.gguf",
+        "size": 5.4
+      },
+      "01": {
+        "name": "ggml-model-q8_0-parts-01.gguf",
+        "size": 5.4
+      },
+      "02": {
+        "name": "ggml-model-q8_0-parts-02.gguf",
+        "size": 5.4
+      },
+      "03": {
+        "name": "ggml-model-q8_0-parts-03.gguf",
+        "size": 5.4
+      },
+      "04": {
+        "name": "ggml-model-q8_0-parts-04.gguf",
+        "size": 5.4
+      },
+      "05": {
+        "name": "ggml-model-q8_0-parts-05.gguf",
+        "size": 5.4
+      },
+      "06": {
+        "name": "ggml-model-q8_0-parts-06.gguf",
+        "size": 2.4
+      },
+      "07": {
+        "name": "ggml-model-f16-parts-07.gguf",
+        "size": 5.4
+      },
+      "08": {
+        "name": "ggml-model-f16-parts-08.gguf",
+        "size": 5.4
+      },
+      "09": {
+        "name": "ggml-model-f16-parts-09.gguf",
+        "size": 5.4
+      },
+      "10": {
+        "name": "ggml-model-f16-parts-10.gguf",
+        "size": 5.4
+      },
+      "11": {
+        "name": "ggml-model-f16-parts-11.gguf",
+        "size": 5.4
+      },
+      "12": {
+        "name": "ggml-model-f16-parts-12.gguf",
+        "size": 0.62109375
+      }
+    }
+  },
+  "starmpcc/Asclepius-Llama2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.10099999999999
+  },
+  "YeungNLP/firefly-llama2-13b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.5
+  },
+  "Undi95/MLewd-Chat-v2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "uukuguy/speechless-codellama-34b-v2.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 67.60000000000001
+  },
+  "LTC-AI-Labs/L2-7b-Synthia-WVG-Test": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "llm-agents/tora-code-34b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 67.60000000000001
+  },
+  "JosephusCheung/LL7M": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.600000000000001
+  },
+  "daryl149/llama-2-13b-chat-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "matsuo-lab/weblab-10b-instruction-sft": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 21.5
+  },
+  "OpenBuddy/openbuddy-openllama-7b-v12-bf16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "LTC-AI-Labs/L2-7b-Orca-WVG-Test": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "cognitivecomputations/samantha-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 15.001
+  },
+  "hpcai-tech/Colossal-LLaMA-2-7b-base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7513671875
+  },
+  "NekoPunchBBB/Llama-2-13b-hf_Open-Platypus-QLoRA-multigpu": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "llm-agents/tora-code-7b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "Norquinal/Mistral-7B-claude-instruct": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "OpenBuddy/openbuddy-falcon-180b-v12-preview0": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 358.09999999999985
+  },
+  "LTC-AI-Labs/L2-7b-Hermes-WVG-Test": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "openaccess-ai-collective/tiny-mistral": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 0.41796875
+  },
+  "Sayan01/Llama-Flan-XL2base": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 0.4560546875
+  },
+  "Trelis/Llama-2-7b-chat-hf-function-calling-v2": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "Q3_K_M": {
+        "name": "llama-2-7b-function-calling.Q3_K_M.gguf",
+        "size": 4.1
+      }
+    }
+  },
+  "budecosystem/boomer-1b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 2.1
+  },
+  "Sao10K/Stheno-1.8-L2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Salesforce/codegen-2B-mono": {
+    "architecture": "CodeGenForCausalLM",
+    "model_type": "codegen",
+    "dtype": "float16",
+    "file_size": 5.7
+  },
+  "Rallio67/3B-redpajama-conditional-alpha": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 5.7
+  },
+  "Rallio67/7B-redpajama-conditional-alpha": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "Undi95/Emerald-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "Sao10K/Chat-Stheno-L2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Yukang/Llama-2-7b-longlora-32k-ft": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "Intel/neural-chat-7b-v3-3-Slerp": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "lmsys/longchat-13b-16k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Xilabs/calypso-3b-alpha-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 13.8
+  },
+  "georgesung/llama2_7b_chat_uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "glaiveai/glaive-coder-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "cerebras/Cerebras-GPT-2.7B": {
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 11.0
+  },
+  "Undi95/Llama2-13B-no_robots-alpaca-lora": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 12.001999999999999
+  },
+  "caisarl76/Mistral-7B-OpenOrca-Guanaco-accu16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "Yukang/Llama-2-13b-longlora-32k-ft": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "ajibawa-2023/Uncensored-Frank-33B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 65.30000000000001
+  },
+  "akjindal53244/Mistral-7B-v0.1-Open-Platypus": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "TheBloke/Wizard-Vicuna-13B-Uncensored-HF": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "TinyPixel/testmodel-3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.1630859375
+  },
+  "TinyPixel/testmodel2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.1630859375
+  },
+  "Voicelab/trurl-2-13b-academic": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "migtissera/SynthIA-7B-v1.5": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "TinyPixel/elm-test": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.1630859375
+  },
+  "Undi95/OpenRP-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "THUDM/BPO": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Undi95/Amethyst-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "dpv/finetuned-gpt2-tiny": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.487328125
+  },
+  "NousResearch/Llama-2-70b-chat-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "Writer/palmyra-20b-chat": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 40.5640625
+  },
+  "TheBloke/wizardLM-7B-HF": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Yukang/Llama-2-13b-longlora-16k-ft": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "ai-forever/ruGPT-3.5-13B": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 52.699999999999996
+  },
+  "teknium/OpenHermes-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "danielpark/gorani-100k-llama2-13b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "aisingapore/sealion7b-instruct-nc": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 15.0
+  },
+  "vihangd/shearedplats-2.7b-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 5.2783203125
+  },
+  "beaugogh/Llama2-7b-openorca-mc-v2-dpo": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "ajibawa-2023/Python-Code-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0580078125
+  },
+  "ajibawa-2023/Uncensored-Jordan-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0580078125
+  },
+  "ajibawa-2023/Uncensored-Jordan-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "cyberagent/open-calm-small": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.37109375
+  },
+  "Enoch/llama-65b-hf": {
+    "architecture": "LLaMAForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 128.9999999999998
+  },
+  "winglian/Llama-2-3b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 7.0
+  },
+  "meta-math/MetaMath-70B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "migtissera/Synthia-13B-v1.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "llm-agents/tora-13b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "hiyouga/Baichuan2-7B-Chat-LLaMAfied": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 15.3
+  },
+  "boomerchan/Magpie-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.900000000000002
+  },
+  "jondurbin/airoboros-l2-13b-gpt4-m2.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "adonlee/LLaMA_2_13B_SFT_v0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "hiyouga/Baichuan2-7B-Base-LLaMAfied": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 15.3
+  },
+  "GreenNode/GreenNodeLM-7B-v1olet": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "AtAndDev/ShortKing-1.4b-v0.1": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.8
+  },
+  "NEU-HAI/mental-alpaca": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "lgaalves/tinyllama-1.1b-chat-v0.3_platypus": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 2.2
+  },
+  "cognitivecomputations/dolphin-2.0-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 15.0
+  },
+  "openaccess-ai-collective/jackalope-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "euclaise/falcon_1b_stage3_2": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 2.601
+  },
+  "breadlicker45/dough-base-001": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0.75
+  },
+  "NewstaR/Storcel-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 18.4
+  },
+  "marcchew/LaMini-40k-Platypus2-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 7.0
+  },
+  "euclaise/falcon_1b_stage1": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 2.601
+  },
+  "rinna/japanese-gpt-1b": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 2.7
+  },
+  "nomic-ai/gpt4all-j": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "bfloat16",
+    "file_size": 24.0
+  },
+  "dotvignesh/perry-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "chickencaesar/llama2-platypus-llama2-chat-13B-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "migtissera/Synthia-7B-v1.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "llm-agents/tora-70b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 138.11171875
+  },
+  "beomi/KoAlpaca-KoRWKV-6B": {
+    "architecture": "RwkvForCausalLM",
+    "model_type": "rwkv",
+    "dtype": "bfloat16",
+    "file_size": 12.767578125
+  },
+  "jondurbin/airoboros-l2-13b-2.2.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "itsliupeng/llama2_7b_mmlu": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "allenai/digital-socrates-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "maximuslee07/llama-2-7b-rockwell-final": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "itsliupeng/llama2_7b_code": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "elliotthwang/Elliott-Chinese-LLaMa-GPTQ-V2.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "euclaise/falcon_1b_stage3": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 2.601
+  },
+  "mncai/Mistral-7B-openplatypus-1k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "garage-bAInd/Platypus2-70B-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "ibranze/araproje-llama2-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "heegyu/WizardVicuna-open-llama-3b-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.9
+  },
+  "teknium/Mistral-Trismegistus-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "l3utterfly/mistral-7b-v0.1-layla-v1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "lgaalves/mistral-7b_open_platypus": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "itsliupeng/llama2_7b_zh": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 12.100000000000001
+  },
+  "NousResearch/Nous-Hermes-2-Vision-Alpha": {
+    "architecture": "LlavaMistralForCausalLM",
+    "model_type": "llava_mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.3429921875
+  },
+  "jondurbin/airoboros-l2-7b-2.2.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "jondurbin/airoboros-l2-70b-2.2.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 138.11171875
+  },
+  "roneneldan/TinyStories-3M": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 0.0654296875
+  },
+  "luffycodes/higgs-llama-vicuna-ep25-70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "luffycodes/llama-shishya-7b-ep3-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "TheBloke/WizardLM-7B-uncensored-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "allenai/digital-socrates-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "ajibawa-2023/SlimOrca-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0580078125
+  },
+  "openbmb/UltraLM-13b-v2.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "abhishek/zephyr-beta-math": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4283671875
+  },
+  "upstage/Llama-2-70b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 138.11171875
+  },
+  "KoboldAI/GPT-NeoX-20B-Skein": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 40.8
+  },
+  "jondurbin/airoboros-c34b-2.2.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 67.60000000000001
+  },
+  "Writer/camel-5b-hf": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 21.1
+  },
+  "maywell/Mini_Synatra_SFT": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.01171875
+  },
+  "hoskinson-center/proofGPT-v0.1-6.7B": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "tokyotech-llm/Swallow-7b-instruct-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.600000000000001
+  },
+  "stabilityai/stablelm-tuned-alpha-7b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 31.7
+  },
+  "jphme/em_german_leo_mistral": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "Gryphe/MythoMist-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "uukuguy/speechless-tora-code-7b-v1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 15.376
+  },
+  "maywell/Synatra-RP-Orca-2-7b-v0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.4
+  },
+  "Minirecord/Mini_synatra_7b_02": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "Qwen/Qwen-1_8B-Chat-Int4": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 1.9
+  },
+  "facebook/galactica-1.3b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 2.6
+  },
+  "luffycodes/llama-shishya-7b-ep3-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "maywell/PiVoT-0.1-early": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "uukuguy/speechless-code-mistral-orca-7b-v1.0": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "hoskinson-center/proofGPT-v0.1": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.9
+  },
+  "uukuguy/speechless-codellama-34b-v1.9": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 67.60000000000001
+  },
+  "Guna0pro/llama-2-7b-html": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.4
+  },
+  "heegyu/WizardVicuna-3B-0719": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 20.9
+  },
+  "cognitivecomputations/samantha-1.2-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.401
+  },
+  "marcchew/Marcoroni-7B-LaMini-80K": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.0
+  },
+  "openbmb/UltraLM-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "daryl149/llama-2-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "oh-yeontaek/llama-2-70B-LoRA-assemble-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "speechlessai/speechless-codellama-airoboros-orca-platypus-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "heegyu/WizardVicuna2-13b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "marcchew/Marcoroni-7B-LaMini-40K": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 7.0
+  },
+  "speechlessai/speechless-llama2-dolphin-orca-platypus-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "uukuguy/speechless-codellama-dolphin-orca-platypus-34b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 67.60000000000001
+  },
+  "KoboldAI/GPT-J-6B-Shinen": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 12.0
+  },
+  "microsoft/git-large": {
+    "architecture": "GitForCausalLM",
+    "model_type": "git",
+    "dtype": "float32",
+    "file_size": 1.6
+  },
+  "pankajmathur/Mistral-7B-model_45k6e2e4": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "openaccess-ai-collective/mistral-7b-slimorcaboros": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "revolutionarybukhari/Llama-2-7b-chat-finetune-AUTOMATE": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "heegyu/LIMA2-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "cognitivecomputations/samantha-mistral-instruct-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 15.001
+  },
+  "uukuguy/Orca-2-7b-f16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "oh-yeontaek/llama-2-13B-LoRA-assemble": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "mncai/Mistral-7B-OpenOrca-1k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "mncai/Llama2-7B-guanaco-1k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "AI-Sweden-Models/gpt-sw3-1.3b-instruct": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 5.5
+  },
+  "TheBloke/Yi-34B-Chat-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 19.3
+  },
+  "beomi/KoRWKV-6B": {
+    "architecture": "RwkvForCausalLM",
+    "model_type": "rwkv",
+    "dtype": "bfloat16",
+    "file_size": 12.767578125
+  },
+  "prithivida/Asimov-7B-v1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 0.1650625
+  },
+  "uukuguy/SynthIA-7B-v1.3-dare-0.85": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "vibhorag101/llama-2-7b-chat-hf-phr_mental_therapy": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "mncai/Llama2-7B-guanaco-dolphin-500": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "teknium/CollectiveCognition-v1-Mistral-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "feidfoe/Metamath-reproduce-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "willyninja30/ARIA-70B-French": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "uukuguy/airoboros-m-7b-3.1.2-dare-0.85": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "heegyu/LIMA-13b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "vihangd/shearedplats-1.3b-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 2.626953125
+  },
+  "CausalLM/72B-preview-llamafied-qwen-llamafy": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 144.9
+  },
+  "defog/sqlcoder": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "bfloat16",
+    "file_size": 31.199999999999996
+  },
+  "wei123602/Llama-2-13b-FINETUNE4": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "winglian/basilisk-4b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 7.001
+  },
+  "totally-not-an-llm/EverythingLM-13b-V3-16k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "vihangd/dopeyplats-1.1b-2T-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 2.146484375
+  },
+  "totally-not-an-llm/PuddleJumper-13b-V2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "zarakiquemparte/kuchiki-1.1-l2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "wei123602/Llama-2-13b-FINETUNE4_TEST2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "winglian/llama-2-4b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 7.001
+  },
+  "michaelbenayoun/llama-2-tiny-16layers-random": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0.00205078125
+  },
+  "wei123602/Llama-2-13b-FINETUNE4_TEST": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "microsoft/git-large-coco": {
+    "architecture": "GitForCausalLM",
+    "model_type": "git",
+    "dtype": "float32",
+    "file_size": 1.6
+  },
+  "w95/megachat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 2.20539453125
+  },
+  "zarakiquemparte/zarablend-1.1-l2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "lamini/lamini_docs_finetuned": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 0.275390625
+  },
+  "wei123602/Llama-2-13b-FINETUNE4_compare8k2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "AUTOMATIC/promptgen-majinai-unsafe": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.326171875
+  },
+  "wei123602/Llama-2-13b-FINETUNE4_TEST3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "ise-uiuc/Magicoder-S-DS-6.7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.099999999999998
+  },
+  "TheBloke/openchat_3.5-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 4.2
+  },
+  "HY-KDPARK/llama-2-koen-13b-sft-v0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "WizardLM/WizardMath-7B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 27.0
+  },
+  "zarakiquemparte/zararp-1.1-l2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "zarakiquemparte/kuchiki-l2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Austism/chronos-hermes-13b-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.2
+  },
+  "TheBloke/Llama-2-7B-Chat-GGUF": {
+    "gguf": {
+      "Q2_K": {
+        "name": "llama-2-7b-chat.Q2_K.gguf",
+        "size": 2.8
+      },
+      "Q3_K_L": {
+        "name": "llama-2-7b-chat.Q3_K_L.gguf",
+        "size": 3.6
+      },
+      "Q3_K_M": {
+        "name": "llama-2-7b-chat.Q3_K_M.gguf",
+        "size": 3.3
+      },
+      "Q3_K_S": {
+        "name": "llama-2-7b-chat.Q3_K_S.gguf",
+        "size": 2.9
+      },
+      "Q4_0": {
+        "name": "llama-2-7b-chat.Q4_0.gguf",
+        "size": 3.8
+      },
+      "Q4_K_M": {
+        "name": "llama-2-7b-chat.Q4_K_M.gguf",
+        "size": 4.1
+      },
+      "Q4_K_S": {
+        "name": "llama-2-7b-chat.Q4_K_S.gguf",
+        "size": 3.9
+      },
+      "Q5_0": {
+        "name": "llama-2-7b-chat.Q5_0.gguf",
+        "size": 4.7
+      },
+      "Q5_K_M": {
+        "name": "llama-2-7b-chat.Q5_K_M.gguf",
+        "size": 4.8
+      },
+      "Q5_K_S": {
+        "name": "llama-2-7b-chat.Q5_K_S.gguf",
+        "size": 4.7
+      },
+      "Q6_K": {
+        "name": "llama-2-7b-chat.Q6_K.gguf",
+        "size": 5.5
+      },
+      "Q8_0": {
+        "name": "llama-2-7b-chat.Q8_0.gguf",
+        "size": 7.2
+      }
+    }
+  },
+  "speechlessai/speechless-coding-7b-16k-tora": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "uukuguy/speechless-mistral-dolphin-orca-platypus-samantha-7b-dare-0.85": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "maywell/Mistral-ko-7B-v0.1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.4373046875
+  },
+  "fangloveskari/Platypus_QLoRA_LLaMA_70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "NeverSleep/Noromaid-13b-v0.1.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 25.999999999999996
+  },
+  "Q-bert/MetaMath-Cybertron-Starling": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "defog/sqlcoder-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "facebook/xglm-1.7B": {
+    "architecture": "XGLMForCausalLM",
+    "model_type": "xglm",
+    "dtype": "float32",
+    "file_size": 3.5
+  },
+  "core42/jais-13b": {
+    "architecture": "JAISLMHeadModel",
+    "model_type": "jais",
+    "dtype": "float32",
+    "file_size": 53.900000000000006
+  },
+  "EleutherAI/pythia-160m-v0": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 0.3662109375
+  },
+  "bofenghuang/vigogne-2-7b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "rinna/bilingual-gpt-neox-4b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 7.7
+  },
+  "KoboldAI/OPT-2.7B-Nerybus-Mix": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 5.6
+  },
+  "matsuo-lab/weblab-10b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 21.5
+  },
+  "eachadea/vicuna-7b-1.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "NousResearch/Llama-2-70b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "TurkuNLP/gpt3-finnish-small": {
+    "architecture": "BloomModel",
+    "model_type": "bloom",
+    "dtype": "float32",
+    "file_size": 0.7255859375
+  },
+  "vihangd/smartyplats-7b-v2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.14453125
+  },
+  "pinkmanlove/llama-7b-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "TheBloke/Llama-2-7B-Chat-fp16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "PygmalionAI/pygmalion-1.3b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 2.9
+  },
+  "sarvamai/OpenHathi-7B-Hi-v0.1-Base": {
+    "architecture": "LlamaForCausalLM",
+    "gguf": {
+      "q4_0": {
+        "name": "OpenHathi-7B-Hi-v0.1-Base-q4_0.gguf",
+        "size": 3.9
+      },
+      "q4_1": {
+        "name": "OpenHathi-7B-Hi-v0.1-Base-q4_1.gguf",
+        "size": 4.3
+      }
+    }
+  },
+  "nlpai-lab/kullm-polyglot-12.8b-v2": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 25.9
+  },
+  "Tap-M/Luna-AI-Llama2-Uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "chinoll/Yi-6b-200k-dpo": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 12.100000000000001
+  },
+  "facebook/galactica-120b": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 244.20000000000002
+  },
+  "prithivida/Asimov-7B-v2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 0.1650625
+  },
+  "CausalLM/14B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": null
+  },
+  "h2oai/h2ogpt-16k-codellama-7b-python": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "OpenVINO/opt-125m-gptq": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 0.1220703125
+  },
+  "TheBloke/leo-hessianai-13B-chat-bilingual-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "OpenAssistant/llama2-13b-orca-8k-3319": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0966796875
+  },
+  "h2oai/h2ogpt-16k-codellama-13b-python": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "stabilityai/stablelm-base-alpha-3b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 14.7
+  },
+  "h2oai/h2ogpt-gm-oasst1-multilang-2048-falcon-7b": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWebModel",
+    "dtype": "bfloat16",
+    "file_size": 14.5
+  },
+  "Qwen/Qwen-72B-Chat-Int4": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "float32",
+    "file_size": 41.29999999999999
+  },
+  "nlpai-lab/kullm-polyglot-5.8b-v2": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 23.599999999999998
+  },
+  "LeoLM/leo-hessianai-70b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.113671875
+  },
+  "TheBloke/SauerkrautLM-13B-v1-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "jphme/Llama-2-13b-chat-german": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "ai-forever/rugpt3medium_based_on_gpt2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.7
+  },
+  "h2oai/h2ogpt-gm-oasst1-en-xgen-7b-8k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "KoboldAI/GPT-J-6B-Adventure": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 12.0
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-100step-flan": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "OpenBuddy/openbuddy-llama2-70b-v10.1-bf16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 138.2025390625
+  },
+  "WizardLM/WizardMath-13B-V1.0": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 52.099999999999994
+  },
+  "filipealmeida/Mistral-7B-Instruct-v0.1-sharded": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 14.396875
+  },
+  "Voicelab/trurl-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "TinyLlama/TinyLlama-1.1B-Chat-v0.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "Felladrin/TinyMistral-248M-SFT-v4": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0.96875
+  },
+  "abhishek/llama-2-7b-hf-small-shards": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.1884765625
+  },
+  "facebook/galactica-125m": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float32",
+    "file_size": 0.244140625
+  },
+  "Undi95/ReMM-SLERP-L2-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.0
+  },
+  "NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v3": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-200step-flan": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "v1olet/v1olet_marcoroni-go-bruins-merge-7B": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 29.0
+  },
+  "TheBloke/Mistral-7B-v0.1-GPTQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 4.2
+  },
+  "TheBloke/dolphin-2.5-mixtral-8x7b-GPTQ": {
+    "architecture": "MixtralForCausalLM",
+    "model_type": "mixtral",
+    "dtype": "bfloat16",
+    "file_size": 24.0
+  },
+  "cognitivecomputations/dolphin-2.2-70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "TheBloke/Phind-CodeLlama-34B-v2-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 18.0
+  },
+  "lmsys/longchat-7b-v1.5-32k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "TheBloke/CodeLlama-7B-Instruct-AWQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 3.9
+  },
+  "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 28.1
+  },
+  "MBZUAI/bactrian-x-llama-13b-merged": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 39.2
+  },
+  "rinna/bilingual-gpt-neox-4b-instruction-sft": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 7.6
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-441step-flan-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "rwitz/go-bruins-v2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "migtissera/Tess-M-v1.3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 69.19999999999999
+  },
+  "kashif/stack-llama-2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "haoranxu/ALMA-7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "anakin87/zephyr-7b-alpha-sharded": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.396875
+  },
+  "TinyLlama/TinyLlama-1.1B-Chat-v0.4": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "ValiantLabs/ShiningValiant": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 278.00000000000006
+  },
+  "leo911kim/Exodia-kor-7B-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.4
+  },
+  "Minirecord/Mini_DPO_test02": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "TheBloke/sqlcoder-34b-alpha-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 18.0
+  },
+  "MBZUAI/LaMini-Cerebras-111M": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.474609375
+  },
+  "internlm/internlm-xcomposer-7b": {
+    "architecture": "InternLMXComposerForCausalLM",
+    "model_type": "InternLMXComposer",
+    "dtype": "float32",
+    "file_size": 18.6
+  },
+  "VAGOsolutions/SauerkrautLM-7b-HerO": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "cyberagent/calm2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "tokyotech-llm/Swallow-13b-instruct-hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.200000000000003
+  },
+  "mosaicml/mpt-7b-8k-chat": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 13.3
+  },
+  "cyberagent/open-calm-large": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 1.8
+  },
+  "timdettmers/guanaco-33b-merged": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 65.2
+  },
+  "GeneZC/MiniMA-3B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 6.0
+  },
+  "MBZUAI/LaMini-GPT-774M": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 3.1
+  },
+  "NousResearch/Yarn-Llama-2-7b-128k": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.5
+  },
+  "42MARU/GenAI-llama2-ko-en-instruct-v3-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "Minirecord/Mini_synatra_7b_03": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "genne/otter3.1.6n_13b_pre": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.300000000000004
+  },
+  "Pirr/pythia-13b-deduped-green_devil": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 24.000000000000004
+  },
+  "KoboldAI/GPT-J-6B-Skein": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 12.0
+  },
+  "genne/otter3.1.4n_7B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "microsoft/git-large-textcaps": {
+    "architecture": "GitForCausalLM",
+    "model_type": "git",
+    "dtype": "float32",
+    "file_size": 1.6
+  },
+  "PracticeLLM/Custom-KoLLM-13B-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "MRAIRR/MRAI_synatra_7B_v1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "Kaeri-Jenti/llama-2-koen-13b-v1.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.4
+  },
+  "DopeorNope/mistralopithecus-v1-dpo-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "robowaifudev/megatron-gpt2-345m": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": null,
+    "file_size": 0.7177734375
+  },
+  "TheBloke/alfred-40B-1023-AWQ": {
+    "architecture": "RWForCausalLM",
+    "model_type": "RefinedWeb",
+    "dtype": "float16",
+    "file_size": 23.299999999999997
+  },
+  "Kaeri-Jenti/llama-2-koen-13b-v1.3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.4
+  },
+  "etri-xainlp/llama2-ko-13b-instruct-v1.1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.10099999999999
+  },
+  "PracticeLLM/Custom-KoLLM-13B-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "Kaeri-Jenti/Llama-2-kor-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.4
+  },
+  "The-matt/llama2_ko-7b_stilted-lion-205_1530": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.7
+  },
+  "KaeriJenti/kaori-70b-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 138.11171875
+  },
+  "cerebras/Cerebras-GPT-13B": {
+    "architecture": "GPT2Model",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 52.0
+  },
+  "Minirecord/Mini_synata_7b_011": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "PracticeLLM/Custom-KoLLM-13B-v3": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-300step-flan-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "42MARU/GenAI-llama2-ko-en-instruct-v6-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.4
+  },
+  "TheBloke/OpenHermes-2.5-Mistral-7B-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 4.2
+  },
+  "clibrain/Llama-2-7b-ft-instruct-es": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "APMIC/caigun-lora-model-33B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 29.0
+  },
+  "augmxnt/shisa-7b-v1": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 15.860937499999999
+  },
+  "mncai/Pr_Llama2_7B-Sh5K_Wi5K_Ne5K_Ct5K-Lr05_Ep4": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-200step-flan-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "Korabbit/Llama-2-7b-chat-hf-afr-100step-flan-v2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "jondurbin/spicyboros-70b-2.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 138.11171875
+  },
+  "FPHam/Free_Sydney_13b_HF": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Qwen/Qwen-Audio-Chat": {
+    "architecture": "QWenLMHeadModel",
+    "model_type": "qwen",
+    "dtype": "bfloat16",
+    "file_size": 16.7
+  },
+  "Chat-UniVi/Chat-UniVi": {
+    "architecture": "ChatUniViLlamaForCausalLM",
+    "model_type": "ChatUniVi",
+    "dtype": "bfloat16",
+    "file_size": 14.1
+  },
+  "chargoddard/Yi-34B-Llama": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 68.6
+  },
+  "kaist-ai/selfee-13b-delta": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.099999999999994
+  },
+  "GAI-LLM/llama-2-koen-13b-mixed-v10": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.4
+  },
+  "KoboldAI/OPT-350M-Erebus": {
+    "architecture": "OPTForCausalLM",
+    "model_type": "opt",
+    "dtype": "float16",
+    "file_size": 0.646484375
+  },
+  "rinna/youri-7b-instruction": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 14.0
+  },
+  "TheBloke/Mistral-7B-v0.1-AWQ": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 4.2
+  },
+  "guardrail/llama-2-7b-guanaco-instruct-sharded": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 26.899999999999995
+  },
+  "AI-Sweden-Models/gpt-sw3-6.7b-v2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 28.1
+  },
+  "TheBloke/stable-vicuna-13B-HF": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "lizpreciatior/lzlv_70b_fp16_hf": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.7
+  },
+  "TheBloke/OpenOrcaxOpenChat-Preview2-13B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 7.3
+  },
+  "LTC-AI-Labs/L2-7b-Hermes-Synthia": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "vilm/vietcuna-7b-v3": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "bfloat16",
+    "file_size": 14.2
+  },
+  "TokenBender/pic_7B_mistral_Full_v0.2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 15.01171875
+  },
+  "uukuguy/speechless-llama2-hermes-orca-platypus-wizardlm-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "microsoft/Promptist": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.498046875
+  },
+  "LinkSoul/Chinese-Llama-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "KoboldAI/fairseq-dense-13B": {
+    "architecture": "XGLMForCausalLM",
+    "model_type": "xglm",
+    "dtype": "float32",
+    "file_size": 26.0
+  },
+  "oopsung/llama2-7b-KoCoT-test-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "Herry443/Mistral-7B-KNUT-v0.2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "fblgit/juanako-7b-UNA": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "PracticeLLM/Custom-KoLLM-13B-v4": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "FlagAlpha/Llama2-Chinese-13b-Chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "togethercomputer/Pythia-Chat-Base-7B": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 13.8
+  },
+  "amazon/LightGPT": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 12.001
+  },
+  "TinyLlama/TinyLlama-1.1B-intermediate-step-240k-503b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 4.4
+  },
+  "stabilityai/japanese-stablelm-instruct-beta-70b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "Neleac/timesformer-gpt2-video-captioning": {
+    "architecture": "VisionEncoderDecoderModel",
+    "model_type": "vision-encoder-decoder",
+    "dtype": "float32",
+    "file_size": 1.1
+  },
+  "vlrfrwaprnyysf1/vKUFUzrUTxZmKaL": {
+    "architecture": "GPTJForCausalLM",
+    "model_type": "gptj",
+    "dtype": "float16",
+    "file_size": 15.9
+  },
+  "TheBloke/phi-2-GPTQ": {
+    "architecture": "PhiForCausalLM",
+    "model_type": "phi-msft",
+    "dtype": "float16",
+    "file_size": 1.8
+  },
+  "uukuguy/Orca-2-13b-f16": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "alpindale/goliath-120b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 235.4000000000001
+  },
+  "OpenAssistant/pythia-12b-sft-v8-7k-steps": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float16",
+    "file_size": 23.799999999999997
+  },
+  "Locutusque/gpt2-large-conversational": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "bfloat16",
+    "file_size": 1.5
+  },
+  "vilm/vinallama-7b-chat": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.7
+  },
+  "etri-xainlp/llama2-ko-13b-instruct-v1.2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.10099999999999
+  },
+  "uukuguy/speechless-tools-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "openaccess-ai-collective/DPOpenHermes-7B-v2": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "file_size": 14.4
+  },
+  "uukuguy/zephyr-7b-alpha-dare-0.85": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "hfl/chinese-llama-2-7b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "vibhorag101/llama-2-13b-chat-hf-phr_mental_therapy": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.0
+  },
+  "Harshvir/LaMini-Neo-1.3B-Mental-Health_lora": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 1.6
+  },
+  "tokyotech-llm/Swallow-7b-hf": {
+    "architecture": "LLaMAForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 13.7
+  },
+  "BramVanroy/Llama-2-13b-chat-dutch": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "PracticeLLM/Custom-KoLLM-13B-v5": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "NurtureAI/openchat_3.5-16k": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "internlm/internlm-7b": {
+    "architecture": "InternLMForCausalLM",
+    "model_type": "internlm",
+    "dtype": "float16",
+    "file_size": 14.6251953125
+  },
+  "KoboldAI/LLaMA2-13B-Psyfighter2": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.000000000000004
+  },
+  "BEE-spoke-data/smol_llama-101M-GQA": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 0.3955078125
+  },
+  "jarradh/llama2_70b_chat_uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 275.3000000000001
+  },
+  "Minirecord/llama13b_test02": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.300000000000004
+  },
+  "bofenghuang/vigogne-2-7b-instruct": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "01-ai/Yi-34B-Chat-8bits": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 36.199999999999996
+  },
+  "TheBloke/OpenOrca-Platypus2-13B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 7.3
+  },
+  "AI-Sweden-Models/gpt-sw3-20b-instruct": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 83.2
+  },
+  "MBZUAI/LaMini-GPT-1.5B": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 6.3
+  },
+  "MBZUAI/LaMini-Neo-1.3B": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 5.4
+  },
+  "MBZUAI/LaMini-Neo-125M": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 0.5380859375
+  },
+  "Intel/neural-chat-7b-v1-1": {
+    "architecture": "MPTForCausalLM",
+    "model_type": "mpt",
+    "dtype": "bfloat16",
+    "file_size": 27.001
+  },
+  "stockmark/stockmark-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.4
+  },
+  "oopsung/llama2-7b-exo-test-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "MBZUAI/LaMini-Cerebras-590M": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 2.4
+  },
+  "HyperbeeAI/Tulpar-7b-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 27.0
+  },
+  "Yukang/LongAlpaca-13B": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "cognitivecomputations/Wizard-Vicuna-13B-Uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.10099999999999
+  },
+  "fblgit/una-xaberius-34b-v1beta": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 69.19999999999999
+  },
+  "Voicelab/trurl-2-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "HuggingFaceH4/starchat-alpha": {
+    "architecture": "GPTBigCodeForCausalLM",
+    "model_type": "gpt_bigcode",
+    "dtype": "float16",
+    "file_size": 31.199999999999996
+  },
+  "cmarkea/bloomz-3b-sft-chat": {
+    "architecture": "BloomForCausalLM",
+    "model_type": "bloom",
+    "dtype": "bfloat16",
+    "file_size": 6.0
+  },
+  "MBZUAI/LaMini-Cerebras-256M": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 1.1
+  },
+  "quantumaikr/llama-2-70b-fb16-korean": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "NousResearch/Nous-Hermes-13b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "bfloat16",
+    "file_size": 26.0
+  },
+  "PracticeLLM/Custom-KoLLM-13B-v6": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.4
+  },
+  "ericzzz/falcon-rw-1b-chat": {
+    "architecture": "FalconForCausalLM",
+    "model_type": "falcon",
+    "dtype": "bfloat16",
+    "file_size": 2.6
+  },
+  "Locutusque/TinyMistral-248M-Instruct": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0.96875
+  },
+  "stabilityai/stablelm-base-alpha-7b": {
+    "architecture": "GPTNeoXForCausalLM",
+    "model_type": "gpt_neox",
+    "dtype": "float32",
+    "file_size": 31.7
+  },
+  "TheBloke/vicuna-7B-v1.5-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  },
+  "aisquared/dlite-v2-774m": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float16",
+    "file_size": 1.601
+  },
+  "chavinlo/gpt4-x-alpaca": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 52.10099999999999
+  },
+  "TheBloke/Yi-34B-AWQ": {
+    "architecture": "YiForCausalLM",
+    "model_type": "Yi",
+    "dtype": "float16",
+    "file_size": 19.3
+  },
+  "rinna/japanese-gpt2-xsmall": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.15234375
+  },
+  "cognitivecomputations/Wizard-Vicuna-30B-Uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float32",
+    "file_size": 130.00100000000003
+  },
+  "microsoft/phi-1": {
+    "architecture": "PhiForCausalLM",
+    "model_type": "phi-msft",
+    "dtype": "float16",
+    "file_size": 2.8
+  },
+  "h2oai/h2ogpt-research-oasst1-llama-65b": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 131.70000000000005
+  },
+  "h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-7b-preview-300bt": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.5
+  },
+  "AI-Sweden-Models/gpt-sw3-20b": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 83.2
+  },
+  "cognitivecomputations/WizardLM-13B-Uncensored": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 26.001
+  },
+  "roneneldan/TinyStories-8M": {
+    "architecture": "GPTNeoForCausalLM",
+    "model_type": "gpt_neo",
+    "dtype": "float32",
+    "file_size": 0.109375
+  },
+  "monology/openinstruct-mistral-7b": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float16",
+    "file_size": 14.4
+  },
+  "illuin/tiny-random-MistralForCausalLM": {
+    "architecture": "MistralForCausalLM",
+    "model_type": "mistral",
+    "dtype": "float32",
+    "file_size": 0.00810546875
+  },
+  "OpenLemur/lemur-70b-chat-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 138.11171875
+  },
+  "mohitsha/tiny-ernie-random-remote-code": {
+    "architecture": "ErnieForCausalLM",
+    "model_type": "ernie",
+    "dtype": "float32",
+    "file_size": 0.0859375
+  },
+  "oopsung/llama2-7b-n-test-v1": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 13.7
+  },
+  "FredZhang7/anime-anything-promptgen-v2": {
+    "architecture": "GPT2LMHeadModel",
+    "model_type": "gpt2",
+    "dtype": "float32",
+    "file_size": 0.326171875
+  },
+  "TheBloke/Magicoder-S-DS-6.7B-GPTQ": {
+    "architecture": "LlamaForCausalLM",
+    "model_type": "llama",
+    "dtype": "float16",
+    "file_size": 3.9
+  }
+}
