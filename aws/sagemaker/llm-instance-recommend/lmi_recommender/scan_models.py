@@ -48,7 +48,7 @@ def main():
     logging.info("=========== importing text-generation models ==========")
 
     api = HfApi()
-    model_list = api.list_models(filter="text-generation-inference,pytorch",
+    model_list = api.list_models(filter="text-generation-inference,gguf",
                                  sort="downloads",
                                  direction=-1,
                                  limit=None)
@@ -75,4 +75,4 @@ def main():
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    check()
+    main()

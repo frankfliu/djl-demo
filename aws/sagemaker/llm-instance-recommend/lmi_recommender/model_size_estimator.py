@@ -60,6 +60,25 @@ def size_collector(lines: List[str], target='.safetensors'):
     return sizes
 
 
+def collect_gguf_info(lines: List[str]):
+    gguf = {}
+    for line in lines:
+        if ".gguf" in line:
+            file_name = line.split()[2]
+            quant = file_name[file_name.rindex("-") + 1:-5]
+            result = line[line.find("(") + 1:line.find(")")].split()
+            size, label = float(result[0]), result[1]
+            if label == "MB":
+                size /= 1024
+            elif label == "KB" or label == "B":
+                size = 0.001
+            elif label != "GB":
+                logging.info(f"Invalid line: {line}")
+            gguf[quant] = {"name" : file_name, "size": size}
+
+    return gguf if len(gguf) > 0 else None
+
+
 def calculate_model_size(model_id: str):
     # url = f"https://huggingface.co/{model_id}"
     url = f"git@hf.co:{model_id}"
@@ -67,6 +86,7 @@ def calculate_model_size(model_id: str):
     result = os.popen("cd test && git lfs ls-files -s").read()
     subprocess.run(f"rm -rf test".split())
     result = result.split('\n')
+    gguf = collect_gguf_info(result)
     sizes = size_collector(result)
     if not sizes:
         sizes = size_collector(result, '.bin')
@@ -75,4 +95,4 @@ def calculate_model_size(model_id: str):
         logging.info(f"Failed to calculate model size: {model_id}")
         logging.info(f"======== {result}")
         return None
-    return final_sizes
+    return final_sizes, gguf

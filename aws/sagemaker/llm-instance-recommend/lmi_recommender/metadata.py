@@ -27,6 +27,7 @@ class ModelMetadata:
         self.size = -1
         self.sha1 = model_info.sha
         self.downloads = model_info.downloads
+        self.gguf = None
         self._set_model_info()
 
     def _set_model_info(self):
@@ -46,7 +47,7 @@ class ModelMetadata:
             self.dtype = "float32"
 
         model_id = self.model_info.id
-        self.size = calculate_model_size(model_id)
+        self.size, self.gguf = calculate_model_size(model_id)
 
     def get_metadata(self, with_config: bool = True):
         ret = {
@@ -59,5 +60,7 @@ class ModelMetadata:
         }
         if with_config:
             ret["config"] = self.config
+        if self.gguf:
+            ret["gguf"] = self.gguf
 
         return ret
