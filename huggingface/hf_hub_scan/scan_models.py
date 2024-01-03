@@ -13,12 +13,52 @@
 import argparse
 import logging
 import os
+import shutil
 import sys
 
 from huggingface_hub import HfApi
 
+from djl_metadata import HuggingfaceMetadata
 from imported_model import ImportedModels
 from model_size_estimator import get_model_size_and_dtype
+
+
+def save_djl_model_zoo(category: str):
+    hf_models = ImportedModels(category)
+
+    for model_id, value in hf_models.models.items():
+        temp_dir = "temp"
+        gguf = value.get("gguf")
+        if not gguf:
+            continue
+
+        repo_dir = f"output/model/nlp/text_generation/ai/djl/huggingface/gguf/{model_id}"
+        if not os.path.exists(repo_dir):
+            os.makedirs(repo_dir)
+
+        metadata = HuggingfaceMetadata(model_id)
+
+        for quant, gguf_file in gguf.items():
+            if os.path.exists(temp_dir):
+                shutil.rmtree(temp_dir)
+            os.makedirs(temp_dir)
+
+            file_name = gguf_file["name"]
+
+            # Save serving.properties
+            serving_file = os.path.join(temp_dir, "serving.properties")
+            with open(serving_file, 'w') as f:
+                f.write(
+                    f"engine=Llama\n"
+                    f"option.modelName={file_name[:-5]}\n"
+                    f"translatorFactory=ai.djl.llama.engine.LlamaTranslatorFactory\n"
+                )
+
+            uri = f"https://huggingface.co/{model_id}/resolve/main/{file_name}?download=true"
+            metadata.add_file(quant, uri)
+
+        metadata_file = os.path.join(repo_dir, "metadata.json")
+        metadata.save_metadata(metadata_file)
 
 
 def trim(category: str):
@@ -57,6 +97,11 @@ def main():
         type=bool,
         action=argparse.BooleanOptionalAction,
         help="convert full category json file to compact version")
+    parser.add_argument("-g",
+                        "--gguf",
+                        type=bool,
+                        action=argparse.BooleanOptionalAction,
+                        help="import gguf models from huggingface")
     parser.add_argument("-c",
                         "--model-category",
                         type=str,
@@ -81,6 +126,10 @@ def main():
         trim(args.model_category)
         return
 
+    if args.gguf:
+        save_djl_model_zoo(args.model_category)
+        return
+
     logging.info(
         f"=========== importing {args.model_category} models ==========")
 
@@ -89,6 +138,10 @@ def main():
                                  sort="downloads",
                                  direction=-1,
                                  limit=None)
+    model_list = [
+        model for model in model_list if 'text-generation' in model.tags
+        or 'text-generation-inference' in model.tags
+    ]
 
     hf_models = ImportedModels(args.model_category)
     total = 0
